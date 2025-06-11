@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GI_Agent</title>
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #003366;
+            --background-light: #f5f8fa;
+            --text-color: #333;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', '맑은 고딕', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        /* 메인 네비게이션 스타일 */
+        .main-nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-menu li a:hover {
+            background-color: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        /* 모바일 메뉴 버튼 */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 100%;
+                text-align: center;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .intro-section {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem;
+            background-color: var(--background-light);
+            border-radius: 8px;
+        }
+
+        .intro-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">LOCKTON KOREA</div>
+        <h1>GI_Agent</h1>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="info_dashboard.html">정보관리</a></li>
+                <li><a href="#knowledge">지식관리</a></li>
+                <li><a href="#networking">네트워킹</a></li>
+                <li><a href="#sales">영업관리</a></li>
+                <li><a href="#admin">행정관리</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>에너지산업 & 방위산업 전문 보험중개 지원</h2>
+            <p>최첨단 AI 기술을 활용하여 전문적인 보험중개 서비스를 제공합니다.</p>
+            <p>고객 맞춤형 솔루션으로 에너지 및 방위산업 분야의 리스크 관리를 지원합니다.</p>
+        </section>
+
+        <div class="card-container">
+            <div class="card" id="info">
+                <h3>정보관리</h3>
+                <p>시장정보, 입찰공고, 고객정보를 체계적으로 관리하여 효율적인 의사결정을 지원합니다.</p>
+            </div>
+            <div class="card" id="knowledge">
+                <h3>지식관리</h3>
+                <p>보험중개업, 자격시험, 영업분야에 대한 전문 지식을 체계화하고 공유합니다.</p>
+            </div>
+            <div class="card" id="networking">
+                <h3>네트워킹</h3>
+                <p>업계, 고객, 내부 관계자들과의 효과적인 네트워크 구축 및 관리를 지원합니다.</p>
+            </div>
+            <div class="card" id="sales">
+                <h3>영업관리</h3>
+                <p>기회식별부터 계약, 수금까지 전체 영업 프로세스를 체계적으로 관리합니다.</p>
+            </div>
+            <div class="card" id="admin">
+                <h3>행정관리</h3>
+                <p>증빙, 경비, 보안 등 행정업무를 효율적으로 처리하고 관리합니다.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>개발 현황</h3>
+                <p>Version 1.0 (2024)</p>
+                <p>지속적인 업데이트 진행중</p>
+            </div>
+            <div>
+                <h3>연락처</h3>
+                <p>Email: contact@locktonkorea.com</p>
+                <p>Tel: 02-1234-5678</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 모바일 메뉴 토글
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+
+            // 메뉴 클릭시 스크롤 애니메이션
+            document.querySelectorAll('.nav-menu a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+
+                    // 모바일에서 메뉴 클릭시 메뉴 닫기
+                    if (window.innerWidth <= 768) {
+                        navMenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // 카드 애니메이션 효과
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                card.addEventListener('mouseover', () => {
+                    card.style.transform = 'translateY(-5px)';
+                });
+                card.addEventListener('mouseout', () => {
+                    card.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

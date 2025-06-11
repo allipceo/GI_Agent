@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GI_Agent 정보센터</title>
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #002855;
+            --header-height: 80px;
+            --nav-height: 50px;
+            --border-color: #e0e0e0;
+            --max-width: 1200px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', '맑은 고딕', sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* 고정 헤더 스타일 */
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: white;
+        }
+
+        .header-top {
+            height: var(--header-height);
+            background: white;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .search-bar {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .search-bar input {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 200px;
+        }
+
+        .search-bar button {
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* 네비게이션 메뉴 */
+        .main-nav {
+            background: var(--secondary-color);
+            height: var(--nav-height);
+        }
+
+        .nav-menu {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .nav-menu li a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 0 2rem;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .nav-menu li a:hover {
+            background: var(--primary-color);
+        }
+
+        /* 메인 컨텐츠 영역 */
+        .main-content {
+            margin-top: calc(var(--header-height) + var(--nav-height));
+            padding: 2rem 0;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .news-section {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 1rem;
+            background: var(--secondary-color);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .news-list {
+            padding: 1rem;
+            height: calc(100vh - var(--header-height) - var(--nav-height) - 8rem);
+            overflow-y: auto;
+        }
+
+        .news-item {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .news-item:hover {
+            background-color: #f5f8fa;
+        }
+
+        .news-title {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .news-meta {
+            font-size: 0.8rem;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        mark {
+            background-color: #fff3cd;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 1024px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-menu {
+                justify-content: flex-start;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .nav-menu li a {
+                padding: 0 1rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem 0;
+            }
+
+            .search-bar {
+                width: 100%;
+            }
+
+            .search-bar input {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">🛡️</span>
+                        <span class="logo-text">GI_Agent 정보센터</span>
+                    </a>
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="키워드 검색..." onkeyup="searchNews()">
+                        <button onclick="searchNews()">검색</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#insurance">보험정보</a></li>
+                    <li><a href="#energy">에너지정보</a></li>
+                    <li><a href="#defense">방산정보</a></li>
+                    <li><a href="#market">시장동향</a></li>
+                    <li><a href="#notice">공지사항</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="news-grid">
+                <section class="news-section">
+                    <div class="section-header">보험 뉴스</div>
+                    <div class="news-list" id="insurance-news">
+                        <!-- 보험 뉴스 목록이 여기에 동적으로 추가됨 -->
+                    </div>
+                </section>
+                <section class="news-section">
+                    <div class="section-header">에너지 뉴스</div>
+                    <div class="news-list" id="energy-news">
+                        <!-- 에너지 뉴스 목록이 여기에 동적으로 추가됨 -->
+                    </div>
+                </section>
+                <section class="news-section">
+                    <div class="section-header">방산 뉴스</div>
+                    <div class="news-list" id="defense-news">
+                        <!-- 방산 뉴스 목록이 여기에 동적으로 추가됨 -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // 샘플 뉴스 데이터 (스크롤 확인을 위해 많은 데이터 추가)
+        const newsData = {
+            insurance: [
+                { title: "보험중개시장 디지털 전환 가속화", source: "보험저널", date: "2024-01-15" },
+                { title: "재보험시장 동향과 전망", source: "보험매일", date: "2024-01-14" },
+                { title: "산업보험 신규 상품 출시", source: "보험뉴스", date: "2024-01-13" },
+                { title: "보험중개사 자격시험 개편", source: "보험타임즈", date: "2024-01-12" },
+                { title: "해외보험시장 진출 전략", source: "보험투데이", date: "2024-01-11" },
+                { title: "AI 기반 보험 상품 개발 동향", source: "보험저널", date: "2024-01-10" },
+                { title: "사이버보험 시장 급성장", source: "보험매일", date: "2024-01-09" },
+                { title: "ESG 경영과 보험산업 변화", source: "보험뉴스", date: "2024-01-08" },
+                { title: "디지털 보험금 청구 서비스 확대", source: "보험타임즈", date: "2024-01-07" },
+                { title: "보험산업 빅데이터 활용 전략", source: "보험투데이", date: "2024-01-06" },
+                { title: "신재생에너지 보험상품 출시", source: "보험저널", date: "2024-01-05" },
+                { title: "방산물자 특화보험 개발", source: "보험매일", date: "2024-01-04" },
+                { title: "해상보험 시장 동향", source: "보험뉴스", date: "2024-01-03" },
+                { title: "보험사 디지털 혁신 전략", source: "보험타임즈", date: "2024-01-02" },
+                { title: "글로벌 보험시장 전망", source: "보험투데이", date: "2024-01-01" }
+            ],
+            energy: [
+                { title: "신재생에너지 정책 변화", source: "에너지신문", date: "2024-01-15" },
+                { title: "수소경제 활성화 방안", source: "에너지데일리", date: "2024-01-14" },
+                { title: "원전산업 수출 동향", source: "원자력신문", date: "2024-01-13" },
+                { title: "ESS 시장 성장세", source: "전기신문", date: "2024-01-12" },
+                { title: "탄소중립 이행 현황", source: "기후경제", date: "2024-01-11" },
+                { title: "태양광 발전소 확대", source: "에너지신문", date: "2024-01-10" },
+                { title: "풍력발전 기술 혁신", source: "에너지데일리", date: "2024-01-09" },
+                { title: "소형모듈원전 개발 동향", source: "원자력신문", date: "2024-01-08" },
+                { title: "에너지저장장치 신기술", source: "전기신문", date: "2024-01-07" },
+                { title: "재생에너지 그리드 구축", source: "기후경제", date: "2024-01-06" },
+                { title: "에너지 효율화 정책", source: "에너지신문", date: "2024-01-05" },
+                { title: "청정에너지 투자 확대", source: "에너지데일리", date: "2024-01-04" },
+                { title: "원전 안전성 강화 방안", source: "원자력신문", date: "2024-01-03" },
+                { title: "스마트그리드 구축 현황", source: "전기신문", date: "2024-01-02" },
+                { title: "에너지산업 디지털화", source: "기후경제", date: "2024-01-01" }
+            ],
+            defense: [
+                { title: "방산수출 신기록 달성", source: "국방일보", date: "2024-01-15" },
+                { title: "차세대 무기체계 개발", source: "디펜스타임즈", date: "2024-01-14" },
+                { title: "방산중소기업 육성방안", source: "방산뉴스", date: "2024-01-13" },
+                { title: "국방 R&D 투자 확대", source: "군사신문", date: "2024-01-12" },
+                { title: "방산보안 체계 강화", source: "디펜스월드", date: "2024-01-11" },
+                { title: "AI 기반 전투체계 도입", source: "국방일보", date: "2024-01-10" },
+                { title: "드론 방어시스템 개발", source: "디펜스타임즈", date: "2024-01-09" },
+                { title: "방산수출 금융지원 확대", source: "방산뉴스", date: "2024-01-08" },
+                { title: "사이버전 대응체계 구축", source: "군사신문", date: "2024-01-07" },
+                { title: "우주방위산업 발전방안", source: "디펜스월드", date: "2024-01-06" },
+                { title: "국방과학기술 혁신", source: "국방일보", date: "2024-01-05" },
+                { title: "방산분야 창업지원", source: "디펜스타임즈", date: "2024-01-04" },
+                { title: "군수품 품질관리 강화", source: "방산뉴스", date: "2024-01-03" },
+                { title: "국방 AI 도입 현황", source: "군사신문", date: "2024-01-02" },
+                { title: "방위산업 수출전략", source: "디펜스월드", date: "2024-01-01" }
+            ]
+        };
+
+        // 뉴스 목록 생성 함수 수정
+        function createNewsList(category, searchTerm = '') {
+            const newsListElement = document.getElementById(`${category}-news`);
+            const news = newsData[category];
+            
+            // 기존 뉴스 항목 삭제
+            newsListElement.innerHTML = '';
+
+            news.forEach(item => {
+                // 검색어가 있을 경우 필터링
+                if (searchTerm) {
+                    const searchLower = searchTerm.toLowerCase();
+                    const titleLower = item.title.toLowerCase();
+                    const sourceLower = item.source.toLowerCase();
+                    
+                    if (!titleLower.includes(searchLower) && !sourceLower.includes(searchLower)) {
+                        return; // 검색어가 제목이나 출처에 없으면 건너뛰기
+                    }
+                }
+
+                const newsItem = document.createElement('div');
+                newsItem.className = 'news-item';
+                
+                // 검색어가 있을 경우 하이라이트 처리
+                let title = item.title;
+                if (searchTerm) {
+                    const regex = new RegExp(searchTerm, 'gi');
+                    title = title.replace(regex, match => `<mark>${match}</mark>`);
+                }
+
+                newsItem.innerHTML = `
+                    <div class="news-title">${title}</div>
+                    <div class="news-meta">
+                        <span>${item.source}</span>
+                        <span>${item.date}</span>
+                    </div>
+                `;
+                newsListElement.appendChild(newsItem);
+            });
+
+            // 검색 결과가 없을 경우 메시지 표시
+            if (searchTerm && newsListElement.children.length === 0) {
+                const noResults = document.createElement('div');
+                noResults.className = 'news-item';
+                noResults.innerHTML = `<div class="news-title">검색 결과가 없습니다.</div>`;
+                newsListElement.appendChild(noResults);
+            }
+        }
+
+        // 검색 함수 추가
+        function searchNews() {
+            const searchTerm = document.getElementById('searchInput').value.trim();
+            
+            // 각 카테고리별로 뉴스 목록 새로 생성
+            createNewsList('insurance', searchTerm);
+            createNewsList('energy', searchTerm);
+            createNewsList('defense', searchTerm);
+        }
+
+        // Enter 키 이벤트 처리
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchNews();
+            }
+        });
+
+        // 초기 뉴스 목록 생성
+        document.addEventListener('DOMContentLoaded', function() {
+            createNewsList('insurance');
+            createNewsList('energy');
+            createNewsList('defense');
+        });
+    </script>
+</body>
+</html> 
