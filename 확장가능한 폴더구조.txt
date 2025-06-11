@@ -1,0 +1,40 @@
+🏗️ 확장 가능한 폴더 구조
+d:\AI_Project\GI_Agent\
+├── 📁 agents/                    # 에이전트별 분류
+│   ├── 📁 info/                  # 정보분야 에이전트
+│   │   ├── 📁 news_clipping/     # 뉴스클리핑 에이전트
+│   │   ├── 📁 market_research/   # 시장조사 에이전트
+│   │   └── 📁 trend_analysis/    # 트렌드분석 에이전트
+│   ├── 📁 knowledge/             # 지식분야 에이전트
+│   │   ├── 📁 document_mgmt/     # 문서관리 에이전트
+│   │   └── 📁 learning_system/   # 학습시스템 에이전트
+│   ├── 📁 sales/                 # 영업분야 에이전트
+│   │   ├── 📁 lead_generation/   # 리드생성 에이전트
+│   │   └── 📁 proposal_maker/    # 제안서작성 에이전트
+│   ├── 📁 networking/            # 네트워킹분야 에이전트
+│   └── 📁 admin/                 # 행정분야 에이전트
+├── 📁 shared/                    # 공통 리소스
+│   ├── 📁 config/                # 전역 설정 (API 키, 공통 설정)
+│   ├── 📁 utils/                 # 공통 유틸리티 함수
+│   ├── 📁 templates/             # 공통 템플릿
+│   └── 📁 databases/             # 공통 데이터베이스
+├── 📁 data/                      # 데이터 저장소
+│   ├── 📁 raw/                   # 원본 데이터
+│   ├── 📁 processed/             # 가공된 데이터
+│   └── 📁 archive/               # 아카이브
+├── 📁 output/                    # 최종 결과물
+│   ├── 📁 reports/               # 보고서
+│   ├── 📁 dashboards/            # 대시보드
+│   └── 📁 alerts/                # 알림/요약
+├── 📁 docs/                      # 프로젝트 문서
+│   ├── 프로젝트플랜.HTML
+│   ├── 📁 specifications/        # 기능 명세서
+│   └── 📁 manuals/               # 사용자 매뉴얼
+├── 📁 tests/                     # 테스트 환경
+│   ├── 📁 unit_tests/            # 단위 테스트
+│   ├── 📁 integration_tests/     # 통합 테스트
+│   └── 📁 mock_data/             # 테스트용 데이터
+└── 📁 logs/                      # 로그 시스템
+    ├── 📁 agent_logs/            # 에이전트별 로그
+    ├── 📁 error_logs/            # 에러 로그
+    └── 📁 performance_logs/      # 성능 로그
