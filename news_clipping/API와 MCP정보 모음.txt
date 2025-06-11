@@ -1,0 +1,5 @@
+각종 정보사이트의 API 키 모음
+
+1. 네이버
+   Client ID: jY7jY3YGKKHtbrlCcoL
+    Client Secret: oeylCcRO3G
