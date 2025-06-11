@@ -1,0 +1,74 @@
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-energy .card-header {
+    background-color: #28a745;
+    color: white;
+}
+
+.card-defense .card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-insurance .card-header {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.news-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.total-count {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#refreshBtn {
+    transition: all 0.3s ease;
+}
+
+#refreshBtn:disabled {
+    opacity: 0.6;
+}
+
+#refreshBtn .bi-arrow-clockwise {
+    transition: transform 0.5s ease;
+}
+
+#refreshBtn:active .bi-arrow-clockwise {
+    transform: rotate(180deg);
+}
+
+.loading {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+} 
