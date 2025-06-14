@@ -59,13 +59,15 @@
       </div>
       <div class="modal-body">
         <div class="mb-3">
-          <label for="export-keyword" class="form-label">키워드</label>
-          <select id="export-keyword" class="form-select">
+          <label for="export-keyword-select" class="form-label">키워드</label>
+          <select id="export-keyword-select" class="form-select" onchange="toggleCustomKeywordInput()">
             <option value="all">전체</option>
             <option value="보험중개">보험중개</option>
             <option value="신재생에너지">신재생에너지</option>
             <option value="방산">방산</option>
+            <option value="custom">사용자 키워드 직접 입력</option>
           </select>
+          <input type="text" id="export-keyword-input" class="form-control mt-2" placeholder="키워드 입력" style="display:none;">
         </div>
         <div class="mb-3">
           <label for="export-format" class="form-label">포맷</label>
@@ -148,27 +150,32 @@ function showExportModal() {
 }
 
 function exportNews() {
-    const keyword = document.getElementById('export-keyword').value;
+    const keyword = document.getElementById('export-keyword').value.trim();
     const format = document.getElementById('export-format').value;
     let filtered = newsData;
-    if (keyword !== 'all') {
-        filtered = newsData.filter(item => item.keyword === keyword);
+    if (keyword) {
+        filtered = newsData.filter(item =>
+            item.title.includes(keyword) ||
+            item.keyword.includes(keyword) ||
+            item.source.includes(keyword)
+        );
     }
     if (filtered.length === 0) {
         alert('해당 키워드에 해당하는 뉴스가 없습니다.');
         return;
     }
+    // 파일명 지정
+    const filename = keyword ? `키워드_${keyword}.${format}` : `news_export.${format}`;
     if (format === 'csv') {
         let csv = 'date,title,link,keyword,source\n';
         filtered.forEach(item => {
-            csv += `"${item.date}","${item.title.replace(/"/g, '""')}","${item.link}","${item.keyword}","${item.source}"
-`;
+            csv += `"${item.date}","${item.title.replace(/"/g, '""')}","${item.link}","${item.keyword}","${item.source}"\n`;
         });
         const blob = new Blob([csv], {type: 'text/csv'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'news_export.csv';
+        a.download = filename;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -177,7 +184,7 @@ function exportNews() {
         const ws = XLSX.utils.json_to_sheet(filtered);
         const wb = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(wb, ws, '뉴스');
-        XLSX.writeFile(wb, 'news_export.xlsx');
+        XLSX.writeFile(wb, filename);
     }
     exportModal.hide();
 }
