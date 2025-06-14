@@ -2,9 +2,11 @@ import feedparser
 from urllib.parse import quote
 from datetime import datetime
 import os
+import json
 
 TEMPLATE_PATH = "news_dashboard.html"
 OUTPUT_PATH = "auto_dashboard.html"
+GOOGLE_JSON_PATH = "../google_news_clipping_test/news_data.json"
 
 CATEGORY_KEYWORDS = {
     '에너지': [
@@ -42,6 +44,43 @@ def make_news_html(news_items):
         html.append(f'<div class="news-date">{item.published}</div>')
     return '<div>' + '</div><div style="margin-bottom:10px;"></div>'.join(html) + '</div>'
 
+def make_google_news_html(news_items):
+    if not news_items:
+        return '<p class="text-muted">수집된 뉴스가 없습니다.</p>'
+    html = []
+    for item in news_items:
+        html.append(f'<div class="google-news-item" data-keyword="{item["keyword"]}">'
+                    f'<div class="news-title"><a href="{item["link"]}" target="_blank">{item["title"]}</a></div>'
+                    f'<div class="news-date">{item["date"]} | {item["source"]}</div>'
+                    f'</div>')
+    return '<div>' + ''.join(html) + '</div>'
+
+def make_compare_html(naver_dict, google_dict):
+    html = []
+    for kw in ['보험중개', '신재생에너지', '방산']:
+        html.append(f'<h5 class="mt-4">키워드: {kw}</h5>')
+        html.append('<div class="row">')
+        # 네이버
+        html.append('<div class="col-md-6"><div class="card"><div class="card-header bg-success text-white">네이버뉴스</div><div class="card-body">')
+        if naver_dict.get(kw):
+            for item in naver_dict[kw]:
+                html.append(f'<div class="news-title">{item["title"]}</div>')
+                html.append(f'<div class="news-date">{item["published"]}</div>')
+        else:
+            html.append('<p class="text-muted">수집된 뉴스가 없습니다.</p>')
+        html.append('</div></div></div>')
+        # 구글
+        html.append('<div class="col-md-6"><div class="card"><div class="card-header bg-primary text-white">구글뉴스</div><div class="card-body">')
+        if google_dict.get(kw):
+            for item in google_dict[kw]:
+                html.append(f'<div class="news-title"><a href="{item["link"]}" target="_blank">{item["title"]}</a></div>')
+                html.append(f'<div class="news-date">{item["date"]} | {item["source"]}</div>')
+        else:
+            html.append('<p class="text-muted">수집된 뉴스가 없습니다.</p>')
+        html.append('</div></div></div>')
+        html.append('</div>')
+    return ''.join(html)
+
 def main():
     category_results = {'에너지': [], '방산': [], '보험': []}
     total_count = 0
@@ -53,7 +92,21 @@ def main():
         category_results[category] = news_items
         total_count += len(news_items)
 
-    # 템플릿 읽기
+    with open(GOOGLE_JSON_PATH, encoding='utf-8') as f:
+        google_news = json.load(f)
+    google_total_count = len(google_news)
+
+    google_by_kw = {'보험중개': [], '신재생에너지': [], '방산': []}
+    for item in google_news:
+        if item['keyword'] in google_by_kw:
+            google_by_kw[item['keyword']].append(item)
+    naver_by_kw = {'보험중개': [], '신재생에너지': [], '방산': []}
+    for cat, items in category_results.items():
+        for item in items:
+            for kw in naver_by_kw:
+                if kw in item.title:
+                    naver_by_kw[kw].append({'title': item.title, 'published': getattr(item, 'published', '')})
+
     with open(TEMPLATE_PATH, encoding='utf-8') as f:
         template = f.read()
 
@@ -66,7 +119,10 @@ def main():
         energy_news=make_news_html(category_results['에너지']),
         defense_news=make_news_html(category_results['방산']),
         insurance_news=make_news_html(category_results['보험']),
-        total_count=total_count
+        total_count=total_count,
+        google_news=make_google_news_html(google_news),
+        google_total_count=google_total_count,
+        compare_news=make_compare_html(naver_by_kw, google_by_kw)
     )
 
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
