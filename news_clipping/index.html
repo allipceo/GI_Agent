@@ -15,16 +15,21 @@
         .card-body { max-height: 600px; overflow-y: auto; }
         .row.justify-content-center { display: flex; flex-wrap: nowrap; justify-content: center; }
         .col-md-4 { flex: 0 0 33.3333%; max-width: 33.3333%; }
-        .refresh-btn { position: absolute; right: 10.5rem; top: 2.2rem; }
+        .update-btn { position: absolute; right: 10.5rem; top: 2.2rem; }
         .export-btn { position: absolute; right: 2rem; top: 2.2rem; }
     </style>
 </head>
 <body>
 <div class="container position-relative">
     <div class="text-center dashboard-title">구글뉴스 클리핑 대시보드</div>
-    <button class="btn btn-outline-primary refresh-btn" onclick="refreshData()">새로고침</button>
+    <a href="https://github.com/allipceo/GI_Agent/actions/workflows/update-news.yml" target="_blank" class="btn btn-outline-primary update-btn" title="클릭 시 업데이트 실행 페이지로 이동합니다.">
+        🔄 최신 뉴스로 수동 업데이트
+    </a>
     <button class="btn btn-secondary export-btn" onclick="showExportModal()">내보내기</button>
     <div class="text-center mb-4" id="update-time">마지막 업데이트: -</div>
+    <div class="text-center mb-4" style="font-size: 0.9rem; color: #6c757d;">
+        <strong>업데이트 방법:</strong> 버튼 클릭 → 'Run workflow' 실행 → 1-2분 후 이 페이지 새로고침
+    </div>
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card category-card border-info">
@@ -92,7 +97,7 @@ let newsData = [];
 let exportModal;
 
 document.addEventListener('DOMContentLoaded', () => {
-    refreshData();
+    fetchNewsData();
     exportModal = new bootstrap.Modal(document.getElementById('exportModal'));
 });
 
@@ -128,10 +133,10 @@ function updateTime() {
     if (dates.length === 0) return;
     const latest = new Date(Math.max(...dates));
     const formatted = latest.toLocaleString('ko-KR', { hour12: false });
-    document.getElementById('update-time').innerText = `마지막 업데이트: ${formatted}`;
+    document.getElementById('update-time').innerText = `데이터 로드 시점: ${formatted}`;
 }
 
-function refreshData() {
+function fetchNewsData() {
     fetch('news_data.json')
         .then(res => res.json())
         .then(data => {
