@@ -97,11 +97,30 @@
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="allNewsModalLabel">전체 클립뉴스 (누적)</h5>
+        <h5 class="modal-title" id="allNewsModalLabel">전체 클립뉴스 (누적, 분야별 3열)</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="max-height:70vh; overflow-y:auto;">
-        <div id="all-news-list"></div>
+        <div class="row" id="all-news-row">
+          <div class="col-md-4">
+            <div class="card border-info mb-3">
+              <div class="card-header bg-info text-white">보험중개 <span class="count-badge" id="all-count-보험중개">(0건)</span></div>
+              <div class="card-body" id="all-news-cards-보험중개"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-success mb-3">
+              <div class="card-header bg-success text-white">신재생에너지 <span class="count-badge" id="all-count-신재생에너지">(0건)</span></div>
+              <div class="card-body" id="all-news-cards-신재생에너지"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-warning mb-3">
+              <div class="card-header bg-warning text-white">방산 <span class="count-badge" id="all-count-방산">(0건)</span></div>
+              <div class="card-body" id="all-news-cards-방산"></div>
+            </div>
+          </div>
+        </div>
         <div class="text-center mt-3">
           <button class="btn btn-secondary" id="loadMoreAllNews" style="display:none;">더보기</button>
         </div>
@@ -119,6 +138,8 @@ let allNewsData = [];
 let allNewsPage = 0;
 const ALL_NEWS_PAGE_SIZE = 20;
 let allNewsModal;
+let allNewsByCategory = {};
+let allNewsPageByCategory = {"보험중개":0, "신재생에너지":0, "방산":0};
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchNewsData();
@@ -224,7 +245,11 @@ function showAllNewsModal() {
         .then(res => res.json())
         .then(data => {
             allNewsData = data;
-            allNewsPage = 0;
+            allNewsByCategory = {"보험중개":[], "신재생에너지":[], "방산":[]};
+            allNewsPageByCategory = {"보험중개":0, "신재생에너지":0, "방산":0};
+            data.forEach(item => {
+                if (allNewsByCategory[item.keyword]) allNewsByCategory[item.keyword].push(item);
+            });
             renderAllNewsPage();
             allNewsModal.show();
         })
@@ -234,31 +259,50 @@ function showAllNewsModal() {
 }
 
 function renderAllNewsPage() {
-    const list = document.getElementById('all-news-list');
-    if (allNewsPage === 0) list.innerHTML = '';
-    const start = allNewsPage * ALL_NEWS_PAGE_SIZE;
-    const end = start + ALL_NEWS_PAGE_SIZE;
-    const pageItems = allNewsData.slice(start, end);
-    pageItems.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'mb-3';
-        card.innerHTML = `
-            <div class="card border-secondary">
-                <div class="card-header">${item.source || '언론사 미상'}</div>
-                <div class="card-body">
-                    <div class="news-title"><a href="${item.link}" target="_blank">${item.title}</a></div>
-                    <div class="news-date">${item.date}</div>
+    ["보험중개", "신재생에너지", "방산"].forEach(keyword => {
+        const container = document.getElementById(`all-news-cards-${keyword}`);
+        container.innerHTML = '';
+        const page = allNewsPageByCategory[keyword];
+        const start = page * ALL_NEWS_PAGE_SIZE;
+        const end = start + ALL_NEWS_PAGE_SIZE;
+        const items = allNewsByCategory[keyword] || [];
+        const pageItems = items.slice(0, end);
+        document.getElementById(`all-count-${keyword}`).innerText = `(${items.length}건)`;
+        if (pageItems.length === 0) {
+            container.innerHTML = '<div class="col"><p class="text-muted">수집된 뉴스가 없습니다.</p></div>';
+            return;
+        }
+        pageItems.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'mb-3';
+            card.innerHTML = `
+                <div class="card border-secondary">
+                    <div class="card-header">${item.source || '언론사 미상'}</div>
+                    <div class="card-body">
+                        <div class="news-title"><a href="${item.link}" target="_blank">${item.title}</a></div>
+                        <div class="news-date">${item.date}</div>
+                    </div>
                 </div>
-            </div>
-        `;
-        list.appendChild(card);
+            `;
+            container.appendChild(card);
+        });
     });
-    // 더보기 버튼 처리
+    // 더보기 버튼 처리: 3개 분야 중 하나라도 더 남아있으면 표시
     const loadMoreBtn = document.getElementById('loadMoreAllNews');
-    if (end < allNewsData.length) {
+    const hasMore = ["보험중개", "신재생에너지", "방산"].some(keyword => {
+        const page = allNewsPageByCategory[keyword];
+        const items = allNewsByCategory[keyword] || [];
+        return (page+1)*ALL_NEWS_PAGE_SIZE < items.length;
+    });
+    if (hasMore) {
         loadMoreBtn.style.display = '';
         loadMoreBtn.onclick = () => {
-            allNewsPage++;
+            ["보험중개", "신재생에너지", "방산"].forEach(keyword => {
+                const items = allNewsByCategory[keyword] || [];
+                if ((allNewsPageByCategory[keyword]+1)*ALL_NEWS_PAGE_SIZE < items.length) {
+                    allNewsPageByCategory[keyword]++;
+                }
+            });
             renderAllNewsPage();
         };
     } else {
