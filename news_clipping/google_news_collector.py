@@ -48,10 +48,8 @@ def fetch_news(keyword):
 def main():
     # 현재 스크립트 파일의 디렉토리 경로를 얻음
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # news_clipping 디렉토리 경로
-    news_clipping_dir = os.path.dirname(script_dir)
-    # 최종 저장될 JSON 파일 경로
-    output_path = os.path.join(news_clipping_dir, "news_data.json")
+    # 최종 저장될 JSON 파일 경로 (news_clipping 폴더)
+    output_path = os.path.join(script_dir, "news_data.json")
 
     all_news = []
     for kw in KEYWORDS:

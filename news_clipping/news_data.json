@@ -1,75 +1,835 @@
-{
-    "last_updated": "2025-07-23T16:20:00",
-    "total_news": 120,
-    "categories": {
-      "보험중개": {
-        "count": 40,
-        "news": [
-          {
-            "title": "보험중개사 디지털 전환 가속화, 고객 맞춤형 서비스 확대",
-            "url": "https://news.google.com/articles/insurance_digital_1",
-            "published": "2025-07-23T10:30:00",
-            "summary": "보험중개업계가 AI와 빅데이터를 활용한 디지털 전환에 나서며 고객 맞춤형 서비스를 확대하고 있다."
-          },
-          {
-            "title": "글로벌 보험중개회사 록톤, 한국 에너지 시장 진출 확대",
-            "url": "https://news.google.com/articles/lockton_korea_energy",
-            "published": "2025-07-23T09:15:00",
-            "summary": "록톤코리아가 신재생에너지 분야 보험중개 서비스를 확대하며 한국 에너지 전환 시장에서의 입지를 강화하고 있다."
-          },
-          {
-            "title": "보험중개업 규제 완화로 혁신 서비스 도입 기대",
-            "url": "https://news.google.com/articles/insurance_regulation_2025",
-            "published": "2025-07-23T14:20:00",
-            "summary": "금융당국의 보험중개업 규제 완화 방침으로 인슈어테크 기업들의 혁신적인 보험 상품과 서비스 도입이 탄력을 받을 전망이다."
-          }
-        ]
-      },
-      "신재생에너지": {
-        "count": 40,
-        "news": [
-          {
-            "title": "한국 태양광 발전 용량 2025년 20GW 돌파 전망",
-            "url": "https://news.google.com/articles/solar_20gw_korea",
-            "published": "2025-07-23T11:45:00",
-            "summary": "산업통상자원부는 올해 말 국내 태양광 발전 설비 용량이 20GW를 넘어설 것으로 예상된다고 발표했다."
-          },
-          {
-            "title": "해상풍력 프로젝트 투자 확대, 서해안 대규모 단지 조성",
-            "url": "https://news.google.com/articles/offshore_wind_west_sea",
-            "published": "2025-07-23T13:30:00",
-            "summary": "정부가 서해안 일대에 대규모 해상풍력 단지 조성을 위해 3조원 규모의 투자를 유치한다고 발표했다."
-          },
-          {
-            "title": "ESS 화재 안전 기준 강화, 보험 가입 의무화 검토",
-            "url": "https://news.google.com/articles/ess_safety_insurance",
-            "published": "2025-07-23T15:10:00",
-            "summary": "에너지저장장치(ESS) 화재 사고 예방을 위해 안전 기준이 강화되고 보험 가입 의무화가 검토되고 있다."
-          }
-        ]
-      },
-      "방산": {
-        "count": 40,
-        "news": [
-          {
-            "title": "한국 방산 수출 사상 최대 실적, K-방산 브랜드 위상 제고",
-            "url": "https://news.google.com/articles/k_defense_export_record",
-            "published": "2025-07-23T12:00:00",
-            "summary": "올해 상반기 한국 방위산업 수출액이 사상 최대치를 기록하며 K-방산의 글로벌 경쟁력이 입증되고 있다."
-          },
-          {
-            "title": "한화시스템, 차세대 레이더 기술 개발 성공",
-            "url": "https://news.google.com/articles/hanwha_radar_tech",
-            "published": "2025-07-23T10:15:00",
-            "summary": "한화시스템이 독자 기술로 개발한 차세대 다기능 레이더가 성능 시험을 통과하며 해외 수출 길을 열었다."
-          },
-          {
-            "title": "KAI 차세대 전투기 개발, 국제 공동 개발 프로젝트 참여",
-            "url": "https://news.google.com/articles/kai_fighter_project",
-            "published": "2025-07-23T14:45:00",
-            "summary": "한국항공우주산업(KAI)이 유럽 항공방산업체들과 차세대 전투기 공동 개발 프로젝트에 참여한다고 발표했다."
-          }
-        ]
-      }
-    }
+[
+  {
+    "date": "Tue, 22 Jul 2025 07:41:21 GMT",
+    "title": "씨에스엘 보험중개 '더 안전한 대한민국 시민안전 정책간담회' 성황리 개최 - 충청비즈",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WcGdqR3MxdTZTMUhpMDNkVlVZUy1xbXkwMGtqTnJYamhIYmNvNEROaVRXdXVTUnUycjdYOURLbzFnUm1QNGJ1T3dkNlVJMFNrQU9ac0pXLW9SdjUycExNcEJn?oc=5",
+    "keyword": "보험중개",
+    "source": "충청비즈"
+  },
+  {
+    "date": "Thu, 17 Jul 2025 02:25:18 GMT",
+    "title": "국내 해상보험중개업계 '술렁'…업계 구도 변화오나 - 해양통신",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ydWszdUxqTml4Y19mQUo3U3NrcF9fbFFWcEdvQTQwRmlkV3A3YjlDRjRnbkNTVmg0WWViZVhlSHhjMVFhZDRUUi16MUNFRlRDLThaVVdwNVBabTljcDdUX0o2ZGY1UQ?oc=5",
+    "keyword": "보험중개",
+    "source": "해양통신"
+  },
+  {
+    "date": "Sun, 20 Jul 2025 22:30:00 GMT",
+    "title": "공기업, 갸우뚱한 보험중개 입찰…국내 기업 역차별 논란 - 뉴스케이프",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wdmczX3BRWV80SzcxZ2I5akhMb2dEak1EY0FJMHRoTzd5b0ZqZk9fV0c5T0hiR0FEZWJiRnJNc3lzVkJzek9rN0pwaExsM1g1cHpNeVNNVGM3Ulpva2dBRTZ4cmFUQS1KNHphQ9IBcEFVX3lxTFA2VTY4SlRiYUR0dlBNMkJoOUVYMkMtd3BsV1lFZ012LVdvX0hRM0V2VUx5MlcxWGY4d2QwQl8tX2NHTGYyZzl3eUtQSEktQ2pfSTRnQS1mUXg2QnZGVXdoR0lDQzFhNTdHeWRrVVNQc3E?oc=5",
+    "keyword": "보험중개",
+    "source": "뉴스케이프"
+  },
+  {
+    "date": "Mon, 28 Apr 2025 07:00:00 GMT",
+    "title": "보험중개사, 어디로, 어떻게 가야 하나? - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTbE13cW5XbWdqVnJla0JWM21POVRmb01GTUM3OExnQmxwZDFzd09ETm9TMHhjNHdDYTdZWGR2c1ltZG9WRXhGWXFBaUM4QTJ2WWNxS1I1SXZ5VFRyQ3VPODJnRHIzQmF4?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Mon, 02 Jun 2025 07:00:00 GMT",
+    "title": "LK보험중개, ‘A&G코리아보험중개’ 인수 - 해양한국",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QcUdQRGVCM2dHUG1qVmJ0MFBseTlOTnJReDFSaEV3Z2htdFRaMXVHQWE2OFRFSnpUdEJadXdpZ0RVMmpnVzg2Qm9yMkhKejJ1VjZxQk5ZZVpNTDczQjZmbTIzTGNTT2xhTlZaZk1uMWcxRDV0aEZuQlRB?oc=5",
+    "keyword": "보험중개",
+    "source": "해양한국"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 08:48:33 GMT",
+    "title": "박정현 의원 \"시민안전보험 지자체 지급률 개선해야\" - 굿모닝충청",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KV2Fra3pvS0JjU0FNdjFZTW9ONW16SVUwUXlpSlhyU2xXVWxZblZwaUtGbXMxZ1FtdGsycU9yWU1fdW1RRWkxXzdGOW9GTlhQTnctN1ZhWXZhUk9tNGFNRTlZTi05TjhBeWtGLTNRNEpwQQ?oc=5",
+    "keyword": "보험중개",
+    "source": "굿모닝충청"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 08:39:25 GMT",
+    "title": "시민안전보험, 사각지대 해소 및 실효성 강화 모색 - 글로벌경제신문",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Pd2F1di12a0FtOU5ycTJrT3dOdnBRX0N1RnpXSVR5eWFMTWFka252ZUhyNlhVazNyWWUwdzRTQTBKZU92b2wtQ3N4aWVyVWROdzhudFlBR09vNHhEUC1FUjlUNWJNQjMxWlQwTA?oc=5",
+    "keyword": "보험중개",
+    "source": "글로벌경제신문"
+  },
+  {
+    "date": "Fri, 25 Apr 2025 07:00:00 GMT",
+    "title": "“보험중개사 통해 일반보험 활성화해야”…보험학회, 보험중개제도 보완점 논의 - 청년일보",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02Qk9aamREOVppa005ZERfaVVGdEpXaFpkM2tWSUI1SElGZ2ZUT3V6Z180ODlNMU5rM3hEZ1lUMWdCb1dlSU4yU3VTUVRqT3E0aWFhaEg2R3JxcEExY0VrYndZNVU4N2M?oc=5",
+    "keyword": "보험중개",
+    "source": "청년일보"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 12:27:32 GMT",
+    "title": "박정현 의원 , 시민안전보험 문제점등 ' 시ㆍ도민 안전 , 이대로 충분한가 ?’ 정책간담회 공동 주최해 - 씨원뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HOUNNZUg1Q1Q3bGtMck04VHdDd0lJcE5idXVsMG82ZXdmdF9CUkZUSVFLYzhZLU9FYXpOOHh1SEVCRnJTVVVocWdDRmIycl81SGlhRzM0amZRVmx2Qm1EWEc4VmhBd9IBakFVX3lxTE80S2xwRzAxRXNYdkxsNm91V0lrOHFOMjZJVF9jQXJMVzAyajFLaVRib29LV2hRVU5KcjIwZ0thSjFMbk9QM2dmeDBIV3pOVDVyQW9qMXNNM2Z3dHdmVHROVmdVOXRpUzBlWVE?oc=5",
+    "keyword": "보험중개",
+    "source": "씨원뉴스"
+  },
+  {
+    "date": "Wed, 15 Jan 2025 08:00:00 GMT",
+    "title": "'창립 10주년' LK보험중개 \"글로벌 위험관리 컨설팅사 도약\" - 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54UVVvZkM2cFdlaUY5T0NSQ05zZEVaZjFncW9XeVdWVDZJQ0c4VUtldUw0T24xS3RYQTBnOWZZSFRpTlVMOGpkcnV3TmZpcUpuaXNqUGdxeHc2SmZpSFVSYkFDQ05nSkhGYjNZMDl6X0RTVFJWWGJtMlpvak8?oc=5",
+    "keyword": "보험중개",
+    "source": "한국금융신문"
+  },
+  {
+    "date": "Fri, 21 Mar 2025 07:00:00 GMT",
+    "title": "올해 10대 보험중개사 영업보증금 17.7% 증가...3633억여 원 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xVUlCOFpubkhQQm5uNkR0SDJCUndGUGt4ZVVVdDlKUm9qZzhHRlFaMmdpcy1TR0FJUHlSRFFMcGM1YlBzb0llVmVBR0dqMy1hTzJCOTE3aUd4alMxX2pwTHpzQWxtZzNV?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Mon, 16 Dec 2024 08:00:00 GMT",
+    "title": "록턴, 새로운 전 세계 파라메트릭 보험 중개 서비스 발표 - 메디포뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2Ty13X1Rlb3JhY2JXeXlzQlRubXpZVlR1LUQzbUZXT1JaeHpUSjJKWjRDekVyc280Yjc3V3VsVEExdlhUQjIxbDE5RGs3NDNPTzIwSV9EVnQ0NWVHNkh4X1I5Ykw?oc=5",
+    "keyword": "보험중개",
+    "source": "메디포뉴스"
+  },
+  {
+    "date": "Mon, 09 Jun 2025 07:00:00 GMT",
+    "title": "[오늘의 DT인] \"20년 넘게 이끈 `토종 보험중개사` 명맥 이어 글로벌 1위로 도약할것\" - 디지털타임스",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hUVNRdVV5UlRaXzN4WktLLURlZmo5WnFlSkpxcHZyVmQweFBWZDAwX0NRQmJVMUdReXc4aWF3dnlUQUJXSXJnTVNXV2VQQQ?oc=5",
+    "keyword": "보험중개",
+    "source": "디지털타임스"
+  },
+  {
+    "date": "Wed, 15 Jan 2025 08:00:00 GMT",
+    "title": "[보험 TMI] KB손해보험·LK보험중개·MG손해보험 외 - 프라임경제",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4NFhaSk13Z2ZfVGkyYmFPb3dfN2pEVXV1dFMwX2lFbEtwV0sxTFgySjd5VW5feWpYUHJFTjFrVjhnRzJISWVTek55ZlBUZFR0Uy11cm5FVWJ3d3h3dV9KR2lpMA?oc=5",
+    "keyword": "보험중개",
+    "source": "프라임경제"
+  },
+  {
+    "date": "Wed, 07 May 2025 07:00:00 GMT",
+    "title": "보험중개사의 전략적 역할 - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DWDU2TXlLX09tQVp4dklPX3otWWdCbDhFUC1FdThiLUJsWUpwVmpCeWg3YjlSMzU0cDUybHB6Z1pOWHM3bjMzNmQzSE1MVkRvUklORDYzSTR5OVZNdXRhR0oyaS1lMkNT?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Mon, 17 Feb 2025 08:00:00 GMT",
+    "title": "[파워 인터뷰] 강두석 엘케이보험중개 대표 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3MEpLUy1UOEpGNndSc29ubGZiMmpxdGNkVmRXV2VwZFBFX205dGs2TlZwd0lmR09xX25zaXNLQnQ3eUd0eUpYWHd4WmVKeE4taUUyWEgyX01WYnFRcmhzZHhyZkRJelpZ?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Fri, 17 Jan 2025 08:00:00 GMT",
+    "title": "LK보험중개, 창립 10주년 맞아 글로벌 컨설팅사 발돋움 2030 목표 공개 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSzRrWFZQWnlOZHp5bFhOTmlrUlZjR09fV0I3cWNsZ2diUHRKNENPdG5Sc0d0OGJUeWxmank2Zmw3eHMwdVhYNE51QXFReWc3N3dhSzlQbGtEUFhLRnZjajdsd0czQTB0?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Mon, 02 Jun 2025 07:00:00 GMT",
+    "title": "LK보험중개, ‘A&G코리아보험중개’ 인수...해상·P&I 시장 리더십 확대 - 보험저널",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03NzNfZVg1c1BBV3hKZWVpc1hYVkpuWlEwNXVIT2FRY2NSdzBfcjYwSlhyWmw0ZUZUUGNqY1VPMHA0YWNDLTFLSHBVMkdKQnVaMUR4clotT0c2SmxydDg2REQtcnFPUkRGWDlfTGFLTQ?oc=5",
+    "keyword": "보험중개",
+    "source": "보험저널"
+  },
+  {
+    "date": "Wed, 15 Jan 2025 08:00:00 GMT",
+    "title": "영국계 재보험사 '밀러', 한국 상륙…아시아 시장 공략 본격화 - 더구루",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2MXZWNUFlSEdLMGUySERqOFFsSHNqVWNJUU16dlpGUk54MkRXUzI1c0p0bldnVURGbWVOdVBsWkxyemVMWlpqeURtMGtJNWRIZGU1NDMybXFuQVlz?oc=5",
+    "keyword": "보험중개",
+    "source": "더구루"
+  },
+  {
+    "date": "Mon, 28 Apr 2025 07:00:00 GMT",
+    "title": "뱅크샐러드, 건강 데이터·보험 중개 수수료 기반 수익성 제고 [핀테크 경쟁력 분석 ①] - 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82bXh4OEpHNktibUVMSVFoa1JWTjkwSmpFLTZPcEVrZEdrX3NZeDFiaXB3bl9TM2hYa0I5eGxFd29oZDRDcG9KRHR4dVlMbV9jaHo2UFZGVHBweXlPcWJWQlc2ZUdPWFlzemdkNk1yLWVvVnZGQy12Z0dtQjA?oc=5",
+    "keyword": "보험중개",
+    "source": "한국금융신문"
+  },
+  {
+    "date": "Mon, 02 Jun 2025 07:00:00 GMT",
+    "title": "LK보험중개, A&G코리아보험중개 인수···P&I 포트폴리오 편입한다 - 뉴스웨이",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lZDFWZlNGbU1uQVpqeXRNN19oV1p1UE1sTkxLTk43MmltWF9UTUxPTVhyTEVobzBFVlBfdFVfSlc0djNuQUswMjk5QWNPTU9lTndveEpXR08tb3pyZVFqdFpGZS1jRXBrdUE?oc=5",
+    "keyword": "보험중개",
+    "source": "뉴스웨이"
+  },
+  {
+    "date": "Fri, 18 Apr 2025 07:00:00 GMT",
+    "title": "대형 M&A와 글로벌 보험업계의 전략 - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZWElmcDRpbUpRVVpSWVZidnVQMFFqZkJBWmR6eVFCbVdJY1ZOQTkxam4yc29IRGExLUZkc0lFT0dTQzdra0hMZjNNSDVqZ0VmZTk1UWVCMUpSY29uc3Awb0d2VFhSRXFS?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Tue, 29 Apr 2025 02:40:25 GMT",
+    "title": "[이창희의 窓] 보험중개사, 손해보험의 질적 성장을 견인할까? - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IZnNNVkUybFpjbU9lalN5ekttTDNPcURZakVZNllnM3laeDFtcGF3ZkZvUGxBUHY1SHdIN0Rjek04VmJXUDNYMzNOYTZ5NUVOQkduSm9jMVRCYkhZdzNBbG05SXQ4MVNa?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Thu, 17 Apr 2025 07:00:00 GMT",
+    "title": "유아이비손해보험중개, 한국해양대에 발전기금 - 국제신문",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY29Gd0FBWUtUenpuSGF3NGxaOVZFUUdXSm81bFVNeXFlX2EzejA3TEp0Z1JoNk90NnU1Um12M2MtS2wyaWRyTzhpbXFHNlVaUXVXOE5HXzdIeVpzZDVZMi1uUk9iZng0UHNlbDZqNldMOTJ1Uml4S0VKdFVNY2VLbGljUjZJa3JzUVp1andR?oc=5",
+    "keyword": "보험중개",
+    "source": "국제신문"
+  },
+  {
+    "date": "Wed, 08 Jan 2025 08:00:00 GMT",
+    "title": "삼성화재 中 합작사, 의료보험 시장 진출 시동…보험 중개업체 '다통' 맞손 - 더구루",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFVUQyVWN4SkhNZkpUbEs5YVdWZnd0ODNhLVNDekVoNmMxVlEtNDRvbEloTW5HMmlaSWpidXhEcmdjZ0ZyZm5oY1BWV0lYOXRzcXZsLVRXVWhvRWdp?oc=5",
+    "keyword": "보험중개",
+    "source": "더구루"
+  },
+  {
+    "date": "Fri, 24 Jan 2025 08:00:00 GMT",
+    "title": "[보험談] 보험중개사 관리감독 강화 - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nRUxKcXJ0VHcwNjNOS1lzR0RyN21ia3drX2tuNHNlWTBEeXdHUEgwOTNCaVoxcFNNZTMtZVhIZ3o1bkRMSlZDbDdCTVNhVkUzLTJBYW5ESG5CalQ0dmR0MlJNWjhMb0pN?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Wed, 25 Sep 2024 07:00:00 GMT",
+    "title": "국세청, 리베이트 제공 건설·의약품·보험중개 등 47개 업체 세무조사 - 정책브리핑",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ndGVERzR2MEY0MUQ0YUJWdmJkVDY4c3Q1bkNKM1FZdkhkSkVkWnBYX05rU3dnN1ZnV3d4YTlqMXpfcVpIQTktMFpFU0RpeWFBOFlLNkRSRGdzUWh0a2lHTkRzbXFGdWdLaFB2dA?oc=5",
+    "keyword": "보험중개",
+    "source": "정책브리핑"
+  },
+  {
+    "date": "Mon, 02 Jun 2025 07:00:00 GMT",
+    "title": "LK보험중개, A&G코리아보험중개 인수 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KYXZ4RlRZTkQ2SlFHYkw4aG95SjJmc2R0Z1dvbUNINkhOTERMYmpOOGszRjFMZVEzZEZURFVYLWF1QWs5dGRjSjJiWVNlMjJ6TTltYXBtZ084MmZSWUpNWVRyOC00aXhF?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Tue, 15 Jul 2025 04:53:05 GMT",
+    "title": "SGIS, Upgraded Horizons Unveiled 고객초청 행사 개최 - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpTjBqVDV5cWVTeFBpbHI0Tm40N2VtbXVQMGlaUFNyVmJibElwZURrU0NDNXpVV05pSVdZYlNDYWdHQ1VkTGhZdFFLZE5hODVDU0Y1eFpEaDdHUGFPVVlTbGplTzZOZnNl?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Mon, 14 Apr 2025 07:00:00 GMT",
+    "title": "무면허 보험 중개 주의 - 캐나다 한국일보",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFOENFVktfUWxfUDViZGxnZmMwc19VdnRKSWF4eXlMbjRLYVZfRmdZNXhaY3U0QzhqZnh4UjlSUnRadVljTkdQT0x2N3ZUTTdDR2pmOFU5azRUY3duNkdXMER1SkhHdw?oc=5",
+    "keyword": "보험중개",
+    "source": "캐나다 한국일보"
+  },
+  {
+    "date": "Thu, 19 Dec 2024 08:00:00 GMT",
+    "title": "올해 보험중개사 303명 합격…합격률 43.5% - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KcUI4cVpvMm1hMjZWYzZWSnZ0S1UtWVVhOEViZFhWZ1EtOVhRZjRaTGN5aE45dUw5QVRYYjB6NXJnbk1NVHlUc01tOXlTTk5PWmJLNlVfRVc3eFHSAWBBVV95cUxNMkxlSXduUWJPS0hyTlJOV0ZOZklMbF9GQmxmcWZkRURaeWJ1RUktTThqQXpWS2VaLThudnd2SnZBX2M4SlUwb2kzNGlnWFh5TjlOenI3Z1hKUFg3MDFaUGI?oc=5",
+    "keyword": "보험중개",
+    "source": "연합뉴스"
+  },
+  {
+    "date": "Fri, 25 Apr 2025 07:00:00 GMT",
+    "title": "글로벌 보험중개 양대산맥 마쉬와 에이온, 직원 유치 소송전 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sZjBDUjFXcmtJdGVxM25uQTBJbzh3LWg2d24tdjJwRGhacDU1bkJXMUJHbU1RV1pxM1NxS2VqYmtTbzUwZERPbXIyYUNnVnlJS0dPNUpQdGhfSEd4cm9vZkhmWGFBbkp4?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Fri, 11 Oct 2024 07:00:00 GMT",
+    "title": "태양광 ‘B코드’…마쉬는 몰랐나? - 한국공제보험신문",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBUzFQcnJkc05CUmZDMllsdXNoN1J0YzNuVFBPM3NGX0dESmxjQWs4a0NDVUpyRFhhRE5MQ1Y3NkMxLXM0TngxT1djUFBXU1NtRG1HRzlseTVYUVp2WXpaLURCdUM0RUE?oc=5",
+    "keyword": "보험중개",
+    "source": "한국공제보험신문"
+  },
+  {
+    "date": "Tue, 15 Oct 2024 07:00:00 GMT",
+    "title": "에이엠씨손해보험중개, 최고업무책임자(COO)에 김연준 상무 영입 - 대한경제",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MM1RNNXhrY0ZyTTR2d1ZyTjY3blRPTllud0M3OHc0X2tsWHVGbUdkTnk3VGlkWFJSS2l3VEd4VjE1YnQ2RU1mcnplTTBUNXpoOUs4Qk9ZYU02ZUZxTk5fLXpxdDZZVVU5b3l0Z0pqZHlOem45?oc=5",
+    "keyword": "보험중개",
+    "source": "대한경제"
+  },
+  {
+    "date": "Wed, 25 Sep 2024 07:00:00 GMT",
+    "title": "국세청 \"리베이트 주고받은 사람 모두\"…'건설‧의약‧보험중개' 47곳 세무조사 - taxtimes.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rZ3JVQUZCbGROWk5PYlR0R0RkU3ItWjQxMDhxWFJsM2RiTUxQV3VweEt0dDF0M1lJOXVla1NzYTd1Tk1DMjYtY3ZOQVA3Szd4UnF1R1dPT3FNRXNJcXI5eGFPR2ZsMG8?oc=5",
+    "keyword": "보험중개",
+    "source": "taxtimes.co.kr"
+  },
+  {
+    "date": "Thu, 12 Jun 2025 07:00:00 GMT",
+    "title": "엔지니어링공제조합, 에이온코리아와 해외사업 지원 MOU - 엔지니어링데일리",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OeVVJeHRhZ2xDUHlDV18xRDlkNkFvNDl2Wms3RE1GN29hZUd4R3RYZHc2RDFOaUhhVFdYeUMxbWFzWkc2Ukl3ZEJuTnM5NGxNUW5xelJKYXU1VnFDV2pOTGpGX0d2emMwWHc?oc=5",
+    "keyword": "보험중개",
+    "source": "엔지니어링데일리"
+  },
+  {
+    "date": "Wed, 15 Jan 2025 08:00:00 GMT",
+    "title": "LK보험중개, 창립 10주년...\"글로벌 위험관리 컨설팅사 도약\" - 청년일보",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMWU8yYzBJQTVOSFQ0S2R2UTBqWXhKLWR5R192Q2ZGN1pEQndKQ1M3c2xScGxRcHUyNkJqUVZlN1dObGtvaFNZT1VBNlNyaUFnMXMwV0V6cjE2Rk9DTEIwNWgwejk?oc=5",
+    "keyword": "보험중개",
+    "source": "청년일보"
+  },
+  {
+    "date": "Mon, 16 Jun 2025 07:00:00 GMT",
+    "title": "[파워인터뷰] 김성준 한국보험중개사 협회장 - 보험매일",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRa1RkRkY2R2RUN3lZMUtOMlFJYzM5a0J1cW9ma05QdkZCNmNYQkItNjF4NmJrNU9EYlNDNVFBWFNUYVhNZlZMWlZXNzdJaFdldVFoYkJ0cnc0bUhjRjJDTjNFMlVNOWgz?oc=5",
+    "keyword": "보험중개",
+    "source": "보험매일"
+  },
+  {
+    "date": "Wed, 16 Apr 2025 07:00:00 GMT",
+    "title": "유아이비손해보험중개, 한국해양대에 대학 발전기금 기탁 - 이뉴스투데이",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11cU10aGlKWm1sdXR2NjUxb0wxaGR5d3pMSGV3ZUJOa2Q0bE9TUDl3NGhCQU9WdTVpZVVfdkhxNTIxZEo4YkZaWlk3VURLTFBydG1fZFJoby1ibVRSVkRsSWNsa2tsaWNwYmhjNDlPNjnSAXRBVV95cUxNdWhOLXU0UmNYLUZSUFhHR1lNNzl5dW05cDd3M3pjanhEYXBGcmlpcEVBODFLWjZPYnpHVUl3TG5lSHJTREJGakRUSS1uUFVUVWwwOUpldFRDc2U2VHEyVWlMRkZQUXcwVFFlb0JKTklLb1dSMA?oc=5",
+    "keyword": "보험중개",
+    "source": "이뉴스투데이"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:51:00 GMT",
+    "title": "건물태양광협회, 신재생에너지 정책 개선 위한 대정부 건의문 전달 - 국토일보",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9veXNfdGlqWHNZSGJ1TmlmcVBRVDdreUtGZkRMVk9CQlhZc0U2TDhSaFBrT3Q4NDljbGkwSjVaNGhmWUg3UVFfM1lyWXRTZjRlWXBycXR3LXpvLUtwOTVDM2xRSQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "국토일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:39:52 GMT",
+    "title": "'공공' 빠진 에너지정책…전남도 '기본소득' 실현 가능할까 - LG헬로비전",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCNVBuSndJRmRnNllxNndlZlllR2JtYkw0NW1WazA3SWVYeEpidDVLQmtwSlJCWTlPRE1fNGw2dkFKTmJnenlNelI3S0FEMkJ1TTc0SjNuZXp5Vjl4bVJ3dzYwWU40TXNQaHcwZU5YZVpBZ9IBdkFVX3lxTFBiRTZEUExjYm1GSzBYNzkwdUNSVi1tQ1JOeTZKVEIyeWtDaDE1TnRFRFhVLUVyT1lFejhwQlhGYnFhbXE3Q3FOR3hoRUJFaERHdWV6aUdsbVUwWmFOOUszU0xwSDZKVnNyTGU3RDJhZmYtb3RuYmc?oc=5",
+    "keyword": "신재생에너지",
+    "source": "LG헬로비전"
+  },
+  {
+    "date": "Sun, 20 Jul 2025 22:47:00 GMT",
+    "title": "신재생에너지로 스마트팜 운용 - KBS 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wdk5fUWR3NHh1bmJVSXpFdVhoZDRKcDhNbHptTVhZTnQ1ODFVOGE1VGxjZ3dpNHMzQko0NU9VV0w1UXY3UmF0UjZmSWU1VEYzbVNfdlBOaVo3TWhqWk93WnVlUHlZQQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "KBS 뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 06:53:59 GMT",
+    "title": "경기도시장군수협의회 ‘신재생에너지 국외연수' 취소 - gukjenews.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zWVhnaFJDaGdobkxsRWlaOVRmUy1fdzJTc1NjMU9sYk9OVndTMm5RdWt4TUJIVXdQVV9kaWdRTkVuT1doNlEyQUoyeVNtNGVDTlJ2eTVYaHEtbkw2YnpKVkJDN0FCUDhnNDZpbEN3?oc=5",
+    "keyword": "신재생에너지",
+    "source": "gukjenews.com"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 09:00:02 GMT",
+    "title": "안성시, 산업단지 중심 태양광·ESS 구축 추진 - 경인미래신문",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xbFQxR2lwWXJNSnhtWl9DMDZOeDhiRkhGdnBYMEwyZGRtclJJcEp4S3ZfaF9vekZ6UU4ya2s3cVFnTzJwalhublEtMUc4R0VaTXNFS0paRS00U2NLRVBhVzhR?oc=5",
+    "keyword": "신재생에너지",
+    "source": "경인미래신문"
+  },
+  {
+    "date": "Fri, 18 Jul 2025 17:47:27 GMT",
+    "title": "산업부, 신재생에너지 보급 활성화 나서 - ecojournal.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9STmtIQXRDSGZ6ejVQQktGam1ZQzk3by1fczV2S24yRngxeVpkTFpGQllPZjF3bkFPeWhsaHgwdUhaZEFLbGFMMW9vT1hvaGxOUmRydTk5UUswa2JRNmh5WGtn?oc=5",
+    "keyword": "신재생에너지",
+    "source": "ecojournal.co.kr"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 22:00:00 GMT",
+    "title": "신재생에너지 송전망 확충에 형강 수요증가 가능성 열렸다 - 스틸데일리",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsNXplbXVBdERjUHI3Yk1qaU1DNlR3U2pRYTR5c3M5aUdoaVN0OU5jbTVDUWJrSVd1WDlOd2EyX3dUamVKSWk0SVBubzRzbUJ3UkN1Ui1IRnN4U1RGVTdNLU4zRTNSNk1DLTBlUGxjcjPSAXRBVV95cUxNZUZSSFJtNUt2cERoNFpub3Rtb3VmWHZNVG1HdTdfUmM1M3ZwV3NaVzJ5SzI2OTVZbXI2RlYtaENacWRuWTJPdmlLSHQ1czA4S3V5YWxEbUZnTVkxWXhZdlZhUmxsaVRONVBOSVMxcVhaeWdrdA?oc=5",
+    "keyword": "신재생에너지",
+    "source": "스틸데일리"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 02:40:29 GMT",
+    "title": "IRENA “재생에너지 3배 목표 달성, 사회 전 부문 연계 없인 불가능” - 전기신문",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0ycWZwQzlMR3I0VWVyVENYOS1hWDlUc1o4UHRLd0xvNmd5VHRZQ1Q1WklIakN0VDEtamd4OWEwTV9EdDhWd1puekhUMEJhRHJVaEF6ZWFXOThEUWRBWXVIQUp0MGdiQXBiZFF4TdIBcEFVX3lxTE92aU9pbzBOSVZ4UUhRRWVWOVhGNVAwUmlCRjFtTlNKdTcxSU1EQ242RXg5aDdRdERUTF9fWEd2UGU0UEZFUjVxQnVrSHA2eHI0cHZPcXFxTmk2WHJJSVFWVUpfLVFlM3pMWjV0NTdrZm4?oc=5",
+    "keyword": "신재생에너지",
+    "source": "전기신문"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 12:50:10 GMT",
+    "title": "국민 10명 중 9명 “재생에너지 전환 시급” - 이투뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzbUxHejZsOWdNbFVMSU8xSUw3eldTNlZtQ21NcXBaQ3dpdzJleDNKRm9EbEtnOGpNQ2V0QnFfRkJ1ZGpwclhYbTdhOGpmbXBCZHNnVlprU05iQWlzVzZHVzF6S1BhdWfSAWtBVV95cUxOQzBjOXpRWFZVc3JtTXFJdXZxVWJVRmhrM2dsejhOU3Ftc1RzNE10MVpKTlF6OVlMY1A5V19yYWZiMnZ4Ykp2c1hXSzR5MjhReGptTm10aEJ5NGIwZnFLXzZmZHpNc0RPcEJGOA?oc=5",
+    "keyword": "신재생에너지",
+    "source": "이투뉴스"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 09:39:26 GMT",
+    "title": "[인터뷰] 김용호 해성풍력자동차 대표 “신재생 에너지, 태양력 발전에서 이제는 풍력이다” - 매일일보",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aelBMY0hUaUVWZzg1Q0dGaXBSdzg1YWdHNGdJRDlKd2hGRHROY3RnVWNDZjNsSlItUFV1VnNGbl9CcWhDWmZCMS0tcDYwTTdIcVI4MEZBSVRISTdzdUdlb1BiWVY?oc=5",
+    "keyword": "신재생에너지",
+    "source": "매일일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:36:33 GMT",
+    "title": "전북도, RE100 에너지솔루션 얼라이언스 에너지전환 본격화 - 투데이에너지",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wbkdqTUtHSkRjd08tVDhwN0c0bkNKeTRud3VBdlIwTzJLWmxhZWR3RExOdnF0d0pZVHNYTWZtakdvLWotUHV4U0ZicTJHMjlTelZuVldHZDJfV0E4UEE5UUN1QUw1SDZIZGNoTTZ3?oc=5",
+    "keyword": "신재생에너지",
+    "source": "투데이에너지"
+  },
+  {
+    "date": "Sun, 20 Jul 2025 09:40:50 GMT",
+    "title": "산자부,신재생에너지 AS 센터 운영 - 디지털타임스",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ON0xwOVFac1RFVTBkM0EwOTZUc1NzY0ZTMmhPTlgxU2NOR3V3dUdzUTd6UldKZzZ6VE44Y043TWpSYXFnZk1JckJlUXhqUQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "디지털타임스"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 05:53:00 GMT",
+    "title": "\"전남 도민 기본소득 위해 신재생에너지 공공주도 개발 확대해야\" - 노컷뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oQ2lDcEZ6VXN2NWQ1Qm4wbmN5bjhfRmplYUttMEhCLTY2SlpiX1RiSE1iRDVMenJCVE5oejR6b2N1SzNLT09kNzczWXBRdWRjU2c?oc=5",
+    "keyword": "신재생에너지",
+    "source": "노컷뉴스"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 21:17:00 GMT",
+    "title": "\"재생에너지 정책, 실무자 이해도 낮고 의지만 있어…거버넌스 필요\" - 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01aE9ES3F5LXBlMzdOemtiY2t6TXByMjBrWkdTNTUyVFQ2RVluZjI0TGxLRnplNy1zRXlSeFJaa0tFbHJJRHVwaHJBdUx0SENVNXpKbmVweGc3MFdjdHNz?oc=5",
+    "keyword": "신재생에너지",
+    "source": "뉴스1"
+  },
+  {
+    "date": "Thu, 10 Jul 2025 07:00:00 GMT",
+    "title": "100% 신재생에너지 산단 만든다…李 \"규제 제로\" 검토 지시 - 중앙일보",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBheTZNSU5sTWd2R2RSdXlZVlQ5ZTJZRGNpb1dPRXdJUFFaOGFsMDNnU1BnbnNwNkE4U3VDdjdvMDRrcDU1MnV2TVBlLWFGTFRqSUd5TUFn?oc=5",
+    "keyword": "신재생에너지",
+    "source": "중앙일보"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 21:00:09 GMT",
+    "title": "태양광에서 또다시 불거지는 에너지 안보 문제…국산화 속도 받을까 - 쿠키뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1faUVTdU9ONUNrV2NYSjBDY2l6QlNoYk9UdHoyZDllRWozekNjSFk0ZkJoSUx2WjA5UDg4N01DZ3hqZ0w3aVdNelhUTVljVk41UFFadlo1STNfOF9zakNfNEpBYw?oc=5",
+    "keyword": "신재생에너지",
+    "source": "쿠키뉴스"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 00:23:53 GMT",
+    "title": "아태지역 기후변화 대응·신재생에너지 확산 나선다 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMnZ4RjQ5U096U0QyMzRyX3VyaEFDaGgwVHYtWWt3cU5IdWRVVklQMHM0QmhlVHROUVhmOWhWTHhDZ1FORUhaWEdYbjZOaGk4bWZKNkppeGRjRzJRbGtRd2pUbkdid2hSdUpGQzNJbmtHM1gxQ19hYnZaY01VVjM3RUlsa0RfYTRnWkhz?oc=5",
+    "keyword": "신재생에너지",
+    "source": "글로벌이코노믹"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:00:00 GMT",
+    "title": "한경협, \"재생에너지 인센티브 확대 시급…부처별 정책 통합해야\" - 이코노믹리뷰",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydnM0X3ZfRm5BVzZELTRZQzk4OHpOMlRENUY2Z1FmMmVEOGUxUzdiZGdnNU1xSncxN1BzeFBkeEt4T3pYSkljR1lqS3pKWU5icVdxZEI4ekg4amhiQ1lOTXBvQU9yZDhISzN0VA?oc=5",
+    "keyword": "신재생에너지",
+    "source": "이코노믹리뷰"
+  },
+  {
+    "date": "Sat, 19 Jul 2025 20:00:01 GMT",
+    "title": "탈원전→'확'원전…李정부, 원전과 재생에너지 균형 맞춘다 - 중앙일보",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mTklOclBvWDdJYnU3WXlKTW9LbVVMWTRDQUM4bkhSaVBBbFdWZktyNTB1NXNrcmZ0OGdHQzdwNm0xM1pabE5fQnBtaEdmNU1xRjRNc1Rn?oc=5",
+    "keyword": "신재생에너지",
+    "source": "중앙일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 04:41:48 GMT",
+    "title": "충남특구 비상 시 연료전지 가동 허용 - 이투뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EUnpIUWRub2ZTS1VjVE5HU1VIOEk0Mkh1OHZFNUQ4aU1TRmwyZ0xzTHl2WlllNkY2RzVTUDg1dE4wcF85NUczbzR6STZ2ZFlDc0dlZ1dsQ29lbWd6TzNhclJLb2N3U0nSAWtBVV95cUxPWnZrSEJjWml2c1Y1NU5NaUlTMXlBbU9NYm1uWHVDOURHWWFPNFI5dkNYdkd4M1lxYkExb20taTJtR3lCS0pKcWhPSE1pQVVRYXZPY2lGYlNSSWlCc01VQ3oxSjVlaHRTakpFUQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "이투뉴스"
+  },
+  {
+    "date": "Wed, 16 Jul 2025 15:36:51 GMT",
+    "title": "재생에너지만 쓰는 ‘RE100 산단’ 추진… 한전 빚 더 늘어나나 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM20zZ2d0Y2tDeUNtMUVON2hDcEJLZ0dVdTRJN3RwUGFzWEx0ZWtIbmdFdjBwZjBrTFY1empqRHJRTk5yX3Bxa0NNZDA0dzFjWW05Q21KNXhTakZZN2NRX19XSTJGY3BTdUxTN2R1LXViUV9FNXFnSlRFUFZEQmVNY1REdmw0WUY4MzN1WE1BWdIBowFBVV95cUxPdEtRUHM4dlZzRU9ja1FDRWJIYkpSakJabEtOYzdXYXVObXAtMmRVZEFjZ3Y3cWVtd3QyWjFJRjRjX1ZzRlZaX3pQVjBsbGFCMndKbWxxVEROZW1UZXJNT3RNN3ViWEtMWnpCSlZlVzRsUGcybzEwMGM4UVItRWRUWWE2VHM4cnB0b2Q2eVZCaEplV2lCZWU0VGxWYlRzRTNxandz?oc=5",
+    "keyword": "신재생에너지",
+    "source": "조선일보"
+  },
+  {
+    "date": "Wed, 25 Jun 2025 07:00:00 GMT",
+    "title": "중국이 두려운 이유, 신재생에너지 때문에 - 시사IN",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pbktVYjNiSDlzOUlhaGRTSVBCcUZlVE5ESUJCSzVKckQ0QmVDcmI0cjk2NXUycGVSUHc1YzUzZXAyUkVTVXgzNUlkZG55Z1pMMVJDNlp5ancyQ1p6Y0NUbzZmbV91ZXk4ZVE?oc=5",
+    "keyword": "신재생에너지",
+    "source": "시사IN"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 04:43:56 GMT",
+    "title": "한국, 빈탄에서 신성장 동력 모색… 신재생에너지·미래 산업 투자 검토 - 한인포스트",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZdWdOREFxbWpfcDdnRWctbTBITi1TRDdtemJXelItam5sM2dxTFU2aTI1MFI2eW1JRjVDR0V6NW5yb2JVeC10VDJmWmRJZw?oc=5",
+    "keyword": "신재생에너지",
+    "source": "한인포스트"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 06:37:00 GMT",
+    "title": "인천시, 영흥도 신재생에너지 발전시설 구축 타당성 조사 - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JSGlKemtIVktKT0oxa2FlVTl3ZkN0VG5PdkVLX2c1WlFqRWp0cWJ2WXZNNXZFNjhDV0hQVVVGS0doUlVZUDBGN1MzX1c3UXB2ZG9N?oc=5",
+    "keyword": "신재생에너지",
+    "source": "네이트 뉴스"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 08:03:57 GMT",
+    "title": "[오늘의 테마] '2차전지' VS '신재생에너지' - MTN 머니투데이방송",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aWFZtSGZFSU40cFp2UW0tWEtfUDlTblBFYWRGNXhrbXZGVFhrVnFINzNXQTNLVlhmV2pleEx1eTJvQ0g1MWN5bHAtbHk4bTVVT0dMS1A1NjdYNmpHSnhSMDVzX2E?oc=5",
+    "keyword": "신재생에너지",
+    "source": "MTN 머니투데이방송"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 05:22:00 GMT",
+    "title": "솔라테크-에스디엔, 신재생에너지 RE100 사업 협력 협약 - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MSi1INXo5bnJfcnhINV9FazVQWkdTemM4X1o2WlNqSy1wQW1DY0pfLUZiTFFGQ1NSSWI0eWZEWGJBei00cXB1Umpvc2tFLWZaNDd3?oc=5",
+    "keyword": "신재생에너지",
+    "source": "네이트 뉴스"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 19:10:00 GMT",
+    "title": "'RE100 최우선으로…' 기후에너지 정책 가시화, 친환경 투자 어떨까 - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iZEhXY1IxaURSNjhGSUJKQkU5N3pQQzZueTk5YkhRLXBDRjdLamI0N2ZYLXF3TU1hMDJHajlQMV9UOEhoQWpHWGFZREg3ajM0Z3JJ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "네이트 뉴스"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 06:18:00 GMT",
+    "title": "Cindrigo, 2024년 1,150만 파운드 손실 보고…신재생에너지 사업 진전 By Investing.com - Investing.com 한국어",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBdlRsWVFYSS1iX0daVmMxYjZFR0lyY3VndDM1UlNoT1RZa1JkZjFKdTlUcnByMWZIMFdKS1JtRUNLUVkzT0RYZUIwaUJNd3diNXdaYnBrMVpINlowM19Ua2YxeS1uaWtSSGdtYzJlY3A?oc=5",
+    "keyword": "신재생에너지",
+    "source": "Investing.com 한국어"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 04:28:00 GMT",
+    "title": "김의겸 새만금개발청장 취임⋯\"신재생에너지 메카로 성장하는데 혼신\" - 이투데이",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5QkR0cTZsdlJoc3hsZXdnVEx0R3lKdFowOC13cThKdGNnS2FFc2hnSDhvN2lySHljdlg0R0V4aGg4VkxtSnBBM2I0RHBGRnRQbHp2bA?oc=5",
+    "keyword": "신재생에너지",
+    "source": "이투데이"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 01:27:14 GMT",
+    "title": "태양 아래에서 수익을 키우다… 5억 달러 움직이는 한국 자본, 호주 신재생에 닿다 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWlJhNllsNnFlVi12YWdVdEpETFFabkNNMjJpS0VYMmxWcnpObEIzYmFSS1IwVGhEMnlZZXA3Z3ZBZ3VtVVgtb282R2NpSEd5dG1CalA4MC10Y2NRMlhaT1phMW50aW1tMGtYdmFpMFdUX1l5TDl3aHB5Zjdyc2tXRWlZZlRRYlpB?oc=5",
+    "keyword": "신재생에너지",
+    "source": "글로벌이코노믹"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 07:09:04 GMT",
+    "title": "“재생에너지 전환, 민간 아닌 공공이 주도해야”...국민 10명 중 8명 한목소리 - 투데이에너지",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3d2c3UEU3SmZhM0NPeEMtaVF5dHpJMHpfRTIxOHVjUnBZTkdRNm9kUlhQZnUtd2J6S0wxd2QzQ1RicGtialpDcFJSNVVPXzJCYUhXVUk2a1ItUTN0aWREZi1ZYVRwdkdXSF9qbjlR?oc=5",
+    "keyword": "신재생에너지",
+    "source": "투데이에너지"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 01:36:54 GMT",
+    "title": "2025년 한국 해상풍력 산업에 ‘변곡점’ 될까?...관전포인트는? - 산업경제뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81cVYwSkh3MDduUDhiR1hhdVJ6ODhoNnE2aVEwOWdOVEUwc0JjVEVvaHFRVlFCT1dVUWNxY3RPcE5odFZQZmdZM29xWm0tZHk3Nk5PYVgweEJJdHNVY0xMUHhB?oc=5",
+    "keyword": "신재생에너지",
+    "source": "산업경제뉴스"
+  },
+  {
+    "date": "Wed, 25 Jun 2025 07:00:00 GMT",
+    "title": "‘따라잡는 나라’에게 필요한 신재생에너지 육성법 - 시사IN",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxaVllNU9jQ1IxX2RFZEhISW1VUXdoOG1ES1d2UTNSZ2hpdzBDQjBDb2FkUGRCRzA3YVllRFdVWUx3SjI2RVVEVnBkMFU4ekk5akJ5MHFxcHptRVNVeTEyODVEZHhxUE5JM3c?oc=5",
+    "keyword": "신재생에너지",
+    "source": "시사IN"
+  },
+  {
+    "date": "Wed, 04 Jun 2025 07:00:00 GMT",
+    "title": "[조간브리핑] 원전은 유지, 재생에너지는 확대···이 대통령의 에너지 정책 - 헬로디디",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzY1Y2RDJjbXQ3SHNEeUluSTJqblhtcl9XM0libFdlZ3F0S1owSEhCQkY0NkRCaDNFZEtBcDZUb3k1Ukhrc2d0d3hMaGFCVjJGZVdVNjZZXzAwSE9ZUkE4U0xGQjg4V2ZlZUE?oc=5",
+    "keyword": "신재생에너지",
+    "source": "헬로디디"
+  },
+  {
+    "date": "Tue, 27 May 2025 07:00:00 GMT",
+    "title": "공공주차장 신·재생 에너지 설비 설치 의무화…11월 28일부터 - 정책브리핑",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hdWFiQ283NlE1TEZ4TGpJYXVKUGx2MkxGbVl2Q25ucmY5Ui1yTVktdXZqVHBpbmNqM211WkZFY1dXSDVNMThyTW81N2lrRU1lVGNXb0o2S3lVV2JfdVc1Y2VhaFN4cXNjdXpXUQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "정책브리핑"
+  },
+  {
+    "date": "Mon, 12 May 2025 07:00:00 GMT",
+    "title": "신재생 발전비중 첫 10% 돌파…원자력, 최대 발전원 자리 등극 - 정책브리핑",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96NHcwMERibU5SOXBWSFVYMFdiOFZJZkFILWJyZ0dXam5rWHllMFFFZ1MwZllJWmF1S2NYbXVVdU01UlhvbmFBMlpxckVES1hOSThnMUJkQTJpVHhyNThjSWxLQ2hQSzdCSHRXRA?oc=5",
+    "keyword": "신재생에너지",
+    "source": "정책브리핑"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 01:37:27 GMT",
+    "title": "에너닷, 에기평 R&D 과제 ‘태양광 분야 주관사’ - 에너지신문",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91SkgtMzI5R0xybl9vUWdhR09GQnVIbVJmNHdBRmFfOEFOdmhEVC13QlVnUjNMRWMybi1URlhyLTVTejhXTjVBdm56UnJJWi04Nk1GVzhLMXM0c0VpN1M0VVN3MUVNaVlRdk1CaGNOZFJCUQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "에너지신문"
+  },
+  {
+    "date": "Thu, 03 Jul 2025 07:00:00 GMT",
+    "title": "새 정부 ‘재생에너지청’ 설립 논의…효과ㆍ우려 충분히 검토돼야 - 전기신문",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pekZzUnZxUExmMFZlYzRsRDdVbXoxTU9iU1VHWnprcmtoNkZtNGdQNlRYZkFmdDdIUTBhMTVsbWJreTAtTTYwdlIwblQtdWFOTFdrMlJ1R19pNTctaHVfc3JOUGxaRmJtalJZVNIBcEFVX3lxTFBXdl9Cc0FIaDhVTjk3T2xzOGFzbXdVR3hlXzBpd09xWlFzZTlwV29aeDNIRHhTYW1CWWVTNlNyZXFtX1l6VERLcmREM0xKUkpwdjBRNkN0Vl9JaEIzcGVVbXhFRkVzQ3pVZU1DTTU1Nlg?oc=5",
+    "keyword": "신재생에너지",
+    "source": "전기신문"
+  },
+  {
+    "date": "Wed, 09 Jul 2025 07:00:00 GMT",
+    "title": "고려아연, 지난해 신재생 에너지 5600억 투자 '사상 최대' - 전자부품 전문 미디어 디일렉",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sWUNLSmZWVm5CdldQTWREb3BhZW44RU5CeFVyMmxxNHVVcjNIMnJQWFk5M3dzZ2NOc08yMllHUWczLTgwc2VBNHdDbGxBdjg1WFUyLXRkdTVwQkRwV1JvdTVnOUFVUQ?oc=5",
+    "keyword": "신재생에너지",
+    "source": "전자부품 전문 미디어 디일렉"
+  },
+  {
+    "date": "Thu, 22 May 2025 07:00:00 GMT",
+    "title": "(2025 신재생에너지학회 춘계학술대회)“망 운영 재설계, 발전원 조화로”...유연성 초점 맞춘 해법 모색 - 전기신문",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uemdSaXRXa3V5ZmpmbVZYdlE4MGRnYUdINVJFVDRYQWJPZEZVWFY2a1BqVGhvZ1NqWUg2R2xvV1E1emRNVmc1R1RJdEE4dENrYW1DUUpLVHltTGlFZ3FkZEF4SFBzeDB2Y2d6RdIBcEFVX3lxTE1VdFF4MHBMbW5wRGJqMDZUZWM3UWNvWjBmYUZHS0JGS0xCamQtVTZIck5PVEZ4MDg1MGVSeVJocGZyM0JiOE8zMzNVRjJhNHRmcGlka1laLTExZVZ5SjYwX2tYX0drMXY4dU9OUDUzSGE?oc=5",
+    "keyword": "신재생에너지",
+    "source": "전기신문"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 08:44:02 GMT",
+    "title": "[글로벌이코노믹 사설] 한국 방산 세계 무대 진출의 조건 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmZ2Q2gtYURLSGZfb25URGllSDFiRTNoa19LcXBJZWd2R213TWFsOTZQQjFDOVhjZ3F4MF9zU0VEYllIUFJWcEU0U25VbVJ5QU1BQ0VCSWhFbEFHdnJtMVM5WWpIS0lxWDFpdzNIWHJFX0tIVTN5cXo3aXJNdVhvdi1GRGE?oc=5",
+    "keyword": "방산",
+    "source": "글로벌이코노믹"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 08:50:26 GMT",
+    "title": "소외되는 중견기업…'K방산 허리'가 꺾인다 - 한국경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMdF9DYklvQ0stX1RfajRZVVhrNm5qQU0tNnhNTm1fdjJpZE9PdnZTTVQxRjBTeVRLWElSVzhwYi1PeF8weDg1alF1SGNXWkVkcTcyR2huekFCZ9IBVEFVX3lxTE1Ba1lfdkdZWnNodlY1ZHJORTR4VloycTVaUzBqTXl2R1VpSjJjTTQzeTI0RTFFbm1sQy0tTEZYZnZOTUdJMlk1QVlEV1BOeUYycnJ4Ng?oc=5",
+    "keyword": "방산",
+    "source": "한국경제"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 23:59:00 GMT",
+    "title": "'K-방산' 중동 공략…튀르키예 방산전시회 '통합한국관' 운영 - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DcUt6aTdDVDk5MTQ0Nk5LbmU3YjJQVjR0M0E5dUM5cE4zZnh3WUMwWVMxTHpiWXpIYTE0TDh5SnlGajJJMWNXWGNBVEIwYWpObUdZ?oc=5",
+    "keyword": "방산",
+    "source": "네이트 뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 08:25:00 GMT",
+    "title": "방사청, 튀르키예 방산전시회에서 ‘통합한국관’ 운영 - 조선비즈 - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWjYwZXl6LUlucEU4VjdLS19tZU5KS0dkbmFJUFhNYTZxZWdmNEFUb1E5RXd4TFZ5RmdOUV9TMWFyWjlCdUpMN0RVTDh6NVpaU3djTkdNV1JXUmp5NFkzSk5zbk9QSGZ3bDA5Nlh0anNra1cxblo1Z0hPUUFDSDJ6OWc0a9IBlwFBVV95cUxOX2JuZF9rMVVwYXZRVVNRUTdXU2lNeUFvVGVOZHNjNjViSkgyRV9LdHJMVV9CRndhdVRvV0lOdkM4eEFIUC1GZE1hU3NRT01hWlZPS2RBTzJucGV2RVVnUkN5T1ZacHdrYmVjT0toSzM1eXdrU1hTaGhZeHdYbG92MmNOZmEzckExWWlobURWcjlnZ2g1RGpR?oc=5",
+    "keyword": "방산",
+    "source": "Chosunbiz"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 23:47:09 GMT",
+    "title": "방사청, 튀르키예 방산전시회에 '통합한국관' 운영 - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GYWdLRDhiQXZMNnhOcVNYQ2ZlUTgxeVlmOVJEcS02Y25ocUEzU1dGeFJzYU9VcUQ5bE5COXpmMVE4bkczR0ZlMVZGWjFqZUk0N3czWmhGRnFRMDDSAWBBVV95cUxQbzJ0NlhyTGZoUTM4LWNrTEFDcXZQNktXT0VQMDBDcmJsYjhyWjczaW5BTUlrdnJYRUNweF9SY0VPTnZSdVQxOHpTSEhPQndjNDVSeGpRb1Iya1l5TmJMTmM?oc=5",
+    "keyword": "방산",
+    "source": "연합뉴스"
+  },
+  {
+    "date": "Mon, 21 Jul 2025 08:01:18 GMT",
+    "title": "\"가심비로 세계 홀렸다\"…K-방산, 신화를 넘어 전설 되려면 - 매일신문",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PcFRRd3JUVldNcmkyMXVwQ0hkd3V3enlmNVpnUE5oaVEwbENsNC01M2dSYVhKYWo2dm9Ha0x1cmdNTWUwamZCX0htNDVMZ1M3U3FyZ0l4TmpEbkVsbFRTTWZn?oc=5",
+    "keyword": "방산",
+    "source": "매일신문"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 08:00:00 GMT",
+    "title": "[단독]한화에어로, ESS 상표출원…방산·조선 전기화 사업 본격 나서나 - 헤럴드경제",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSNFltSnd1c0FaOEk4LUdTczhrWWJjaGJqTm5CS3hyTUFVQlV6cERxMWZYbVdaMTN4T3hNV3JtTEpaZ0JtX05yYVlaMThLbjE3WHdDZ2N3?oc=5",
+    "keyword": "방산",
+    "source": "헤럴드경제"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 23:12:36 GMT",
+    "title": "디와이씨, 방산 부품 기업 신세계정공 인수 - 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hekVteGtONDRXNmM3UmxoVUhHbV85NTcxOS1EdWxJLW4zMmMwWFhZeTByTWZXamE4QTY2TUlDemg2bldiOHlSOU4zVV8wbDMzcWNwTjQxZGxqUXFhQmtKYtIBeEFVX3lxTE8wbHF6bGZDRjBHWkZPWWlTejJzcG8xQ3ZMWTdReEhseEtmWUVCU1pPODA5TTdnc3hYbFRVY1NoakZScEIzUmFNNVdXUlVTU09OaGo4ckxFalAwOE15Ujc4aHhXZjJUc2ZTdEFqZm1zanItRnpqdF8xMQ?oc=5",
+    "keyword": "방산",
+    "source": "뉴시스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 00:06:11 GMT",
+    "title": "디와이씨, 방산 부품 기업 신세계정공 인수에 ‘上’ - 마켓인",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PdVFxaF9iRzhYaWJUYkFPZ0xZUURYUm1FSmdjOU1Oa1h6RUhPbFFTaEJGVWtORjFma25xSnJ1ZjB4eWg3YjRpSzRKb1RlNldMTE5FbVdmN0F6OFpYekNIZjZxeDNQNDFWMXdSVDdLaU84VFU?oc=5",
+    "keyword": "방산",
+    "source": "마켓인"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 00:20:46 GMT",
+    "title": "[특징주] 디와이씨, 방산 부품 기업 인수 소식에 上 - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWmZwNVQyTXRERUhzN0QzN3d0bDZ6aTNDQXNVTkhZQUgtUnFlVWEtR09qY29rX3hoQUdLa0w1bF9DZVNZZ1ROWlQ5TGtHUEo4MnoxYUYzNGVPdzlOMGFHSEVFU2ZmNzhxTi1yU1FWRllYRVJtNm8yYlhfNnBDb2Y0ddIBlAFBVV95cUxQeE5hZzZRZmRTeWo5TzdSZ2E1VWdZRzllYm9DcEd5bnF3MFMxdEpXaXhDQnJtcjVQT1ppWE5sWUlGclJTYXFqcnFPWlZac0VHb05wQlJQdWhRY2p0eFEzSVk0bThoRTZSZ20yRXJaaGxlRlYyNkE3bXFOYjBuaEVPalpVcWs4TUo1NHlvT0NwaUx4bFZa?oc=5",
+    "keyword": "방산",
+    "source": "조선일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:49:38 GMT",
+    "title": "TIGER K방산&우주·TIGER 조선 ETF, 각각 순자산 3000억 돌파 - 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54U0ZLcWlnUW5ET0d3bC1XNmQyN09oVGZtOVlIb3NZTlJBRlF0MGNKbjhLNlk3ZV85dTFvLUxaNUhPY2Z5SG5DaWR5QUp1VXRtY2ZMZ0g5cWFqd1pleTh6VV9maTZfd9IBbkFVX3lxTE9QOWNsRTBKRnNMdUVwaWpjb1FiMmNxa0NpNFNpcUJyenprRll3NUt2aEpuR3I0U09ZNGFRekt6LTk4T3JjU2tpNkdvLXQ0QzNYTTY5YmJ2eXVuVFdZenFLWU02UHVtRzZMTGY0VVpB?oc=5",
+    "keyword": "방산",
+    "source": "머니투데이"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:29:21 GMT",
+    "title": "미래에셋운용 ‘K방산·우주, ‘조선 톱10’ 각 순자산 3000억원 돌파 - 주간한국",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85Qk1FdnBiMEhzbFBhTV9TNTFMQjVxN1VHc0U3VTlGelo4a04xeXhUYXNZdHc3NVRpdHJNRnhRa3RRa09JamRCVkJhcnN3SDlxNmZueHFVZ3RWWGh4RWhrUFJCcU5TN3ZWNXJRTzh4cEXSAXRBVV95cUxPckp3LWtHV01hOHhKVWVXMFVGRWg5cld0U0FmZkdlbTg3RWJqQ1B3bU9aeFhuUURHT21hZTBlZnRJSFdsdlRlY3FCSmlaNjJIQ2Q1OUQycFpwaU5pcWo4OHl3MHlkM0JoekRVM1MyRVF3eHd2VQ?oc=5",
+    "keyword": "방산",
+    "source": "주간한국"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 05:36:31 GMT",
+    "title": "미래에셋 K방산·K조선 ETF, 각각 순자산 3천억…\"대형주 집중\" - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aWGc1azdpeFVTdFFSZ29YUUNxeHFmcFk5STZpV2RuU2U1bTZfRXd1N0JaX05yclVXUWtpRm5rb2tNbG96NGJ4aDhtSEhtNUxWbzY4M2lqXzZtWFXSAWBBVV95cUxQUGJhSkpxTVk2MmVNb1hzVUtfOC1leExQejFRUjhHOV85em5nWFRFZkVPWk9GTXd1NU45X0RiRzlDeUhKbnMxQjdTeWQwUFZYT1V4MTZyNkhPZnN5WHZ0dU4?oc=5",
+    "keyword": "방산",
+    "source": "연합뉴스"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 07:07:45 GMT",
+    "title": "\"너무 올랐나\"…방산·원전 차익실현에 '우수수'[핫종목] - 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxdXVmcnR1WW1pOEUxV1dGZjMzNXU4NFNfbkFUX2FEZmxJaFFocVp2T1BnQUdFMkdRVXY4V1dVQ0JweHZjTmRiWlJ2bS1iM2lLd3g0TTdtRHZiZk0?oc=5",
+    "keyword": "방산",
+    "source": "뉴스1"
+  },
+  {
+    "date": "Tue, 22 Jul 2025 16:09:23 GMT",
+    "title": "록히드마틴, 2Q 실적부진·방산 손실에 급락…52주 신저가 - 마켓인",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56VDJuR2JrdThMODRoUDNSWlVvVjYwNlFZUTJvS1EzdW80emxPMWVCR0Q1S0VFWm9VVHIzYnlOQy1tZUU0eXZOeTNYMFdKcjFSSkphNHRIRVV0ajhSVEhtUXlveWphdjRmczhkZXRPM0c5UUU?oc=5",
+    "keyword": "방산",
+    "source": "마켓인"
+  },
+  {
+    "date": "Sat, 19 Jul 2025 07:00:00 GMT",
+    "title": "[영상] “K-방산 극호황기 이제 시작… 추가 상승 여력 충분” - 주간동아",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhTkUycHlQVEhoTl81X2VueFVFSzcyeFZQeGIxWkZTbGdEOW5DTmxqWUd1MkNIMHVzX1JxNU5RaUpoUGY5SFdmR1ZBSXVuYWFZVGVkYUtFZHVzTVZrckRPVTk0eFlFM1JQ?oc=5",
+    "keyword": "방산",
+    "source": "주간동아"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:52:54 GMT",
+    "title": "방사청, 튀르키 방산전시회 '통합한국관' 운영 - SPN 서울평양뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LOGNSaDdsa0l0cUUyY2NLUThsSXRzRmVFM2IwVGtIemJsMk0yUmx2Qnc2N2NENnVIM19LbUMzMkpRYmNWajZ3dmJvNmJWdkN5SFQxLXJ1YXpUSmhCSlJTNmlsQnFjc0luaXc?oc=5",
+    "keyword": "방산",
+    "source": "SPN 서울평양뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:52:59 GMT",
+    "title": "러 전시경제에 EU 화들짝···'품질·납기' K방산에 기회 - 서울파이낸스",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JZEFTU2xGZTUweEVFelVMdV9ISVZwX0t4dzBnQVBESE14U2ZYTmNobWwzZnQxdExpX0xrUDRRUXdxd1lrTnFLWnFJUnpXQ18wUUxXMEd4YThTTXNwZmlSeXRNZWRNUV9RLWc?oc=5",
+    "keyword": "방산",
+    "source": "서울파이낸스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 08:54:42 GMT",
+    "title": "[기고] 세계 겨누는 경남의 최종병기, K방산 - 경남도민일보",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85T09NeExHbXplcTI4MzNWczhYd0EtQXVrUFVTRVdzMjNZWk9IWHQ4UFY3dDdfQUU3dGk0TVZETUgtd1lSVmx3R1FFSFZWSFN2V0RjRHlZS0RMVmpoQklrU1BieVlZQ0dl?oc=5",
+    "keyword": "방산",
+    "source": "경남도민일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 04:58:32 GMT",
+    "title": "K-방산 중소기업, 유럽·중동 시장 진출 모색 - 뉴스토마토",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YaEROTjVESnlHVFVqTTNIX0E1aVI0TzRkTFNGZDRGWjBtOE13ZW91TkVNc2dsMlBDS2J4SlI5azBJU1lYR0MtMzZlWGJNUWVlV3FIem53aHdZQ1IydFczRg?oc=5",
+    "keyword": "방산",
+    "source": "뉴스토마토"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 01:21:01 GMT",
+    "title": "방진회·수출입은행, 방산기업 대상 수출금융설명회 개최 - 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SMWxoakpEWE1mMFF0NW84aXFDYVZyMFN0aHFuYjFvelMtS2I0bkVwSVFrMDdjM1dPb25VTGNXdzRjUi1Yd2VnUnVTTE84T1c0Yl93aFBPM3ZhWUJsQjBYZDJTaGFNQjQ?oc=5",
+    "keyword": "방산",
+    "source": "뉴스1"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:28:51 GMT",
+    "title": "미래에셋 ‘TIGER K방산&우주, ‘TIGER 조선TOP10’ 각 순자산 3,000억원 돌파 - 레디앙",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10TU1rYXFCNzgxaGpjbGdscnhBajNLbFRpdXJ4TEhWNU9OU2wyZEk2R0YzWUlBcHVFMHEtNDlyQUFUM2dUX1BDQ205UzRJWDc0bFA4cHVOdlBzZ1REcTRvOGIzYVZDNmg5?oc=5",
+    "keyword": "방산",
+    "source": "레디앙"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 05:16:17 GMT",
+    "title": "‘K방산·고배당’ 두 배 커진 한화ETF…“가상자산 기반 상품 출시 준비” - 중앙일보",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CdGtvelFhdVZNT25mcVFyaTNoUnhQYjZia3VwcHBabFNoVzkwSnEwVzh3b25ORktRSW9HQ1k4ZkdHLXk5UTBZamdMUHpfdkgxLW1IdDl3?oc=5",
+    "keyword": "방산",
+    "source": "중앙일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 00:27:30 GMT",
+    "title": "디와이씨, 방산 부품사 인수 소식에 상한가 - 한국경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YWHo0TVZ2aGE5bDdhdXlTczB6Tlg3SkpWdUcyTE9CZWROS2tqY19DNzI5eXlWNWVUbUtLcGFubWVhMDJ4NUpNV2ZVeXhtQnBudmlhUWhzU01qZ9IBVEFVX3lxTFA2RGVZWHlDbVp1c1cwLUpvZU1PM0o2ZDVqdkhCa1hFaW1Ha1EyVWVMYndvclpGeVBZaXMwcGJKVExHazg0VDJsdXZhZVhJcjRZcTlpSQ?oc=5",
+    "keyword": "방산",
+    "source": "한국경제"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 02:10:38 GMT",
+    "title": "중국 희토류 수출 통제, 한국군 방산 공급망 위협 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUWdQUzZpbHNFc3ZUanJ4UmFVRzhOUFZ0Q2lLaTdNRDVKUTNOT25uREZwa2lDUm1HUkVwV1BESUcxbzlYRnpCVDFOQUxzVkZ0M3JEYW02Tzl6eEJrWHBLV0N3UDV6X1FCY1QxcHJXNmtEQ3lVaFNjY3ZqdUNLMko5bkRNbHN4Z1M5?oc=5",
+    "keyword": "방산",
+    "source": "글로벌이코노믹"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 01:46:25 GMT",
+    "title": "한화운용, K-방산 성공 잇는다…\"디지털자산 강자 될 것\" - 연합인포맥스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MYUd5RC11ZEQ1M2prNklGMl8wbndIRm9QZXRuamNJeXhmZ3Zfd0t0Rk5reDMwd0JpMElBQjA5TVZFaGl5S1pfdjBaVWVVNFpfTDZ2SXRHQ3FCYXJJUno4M1owU3paNzBxQlo1NHRlOEI?oc=5",
+    "keyword": "방산",
+    "source": "연합인포맥스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:49:35 GMT",
+    "title": "대전 서구 방위산업 핵심 인재 56명 배출 - 중도일보",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jZHBfMnlCNHpGaHZQZG9EcU1TUmZYYlhkOWZHeDJPT3oxUnVzbjdXaVlmTmhZRjgybjhCc041X2FPZzhBbWdwbDEyNFlzSWZydU5DbF94cGc4UHVNTzl6dWFaSEN1VkdhMmhOYw?oc=5",
+    "keyword": "방산",
+    "source": "중도일보"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:24:07 GMT",
+    "title": "구미시, 로봇·배터리·방산 `삼각축`으로 산업지도 새로 쓴다 - 매일신문",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pU2pKR0xlSE1uWDIzczd1eUlhRE9ZVTR2NDM2N2V0R0FfNTVza24xZ1pET3luV3JkY2g4VzBCTklncG02b2tMTEdOcmJvbW9sd1gwTWJIMDEyQ3hiMUFnblln?oc=5",
+    "keyword": "방산",
+    "source": "매일신문"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 05:54:00 GMT",
+    "title": "1주년 된 한화운용 PLUS ETF, 방산·배당으로 '퀀텀점프' - 톱데일리",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QSkgxX182MzFFR1hoVVFrMEx0NDhWcWl0cW15MlhaQWROdmROU3ZGTklRaTd0SjVjSTBUdjYyQWktazVKWG5Dc1FLMUpMMkd3?oc=5",
+    "keyword": "방산",
+    "source": "톱데일리"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 05:58:45 GMT",
+    "title": "경남TP 진주방산기업 경쟁력강화·네트워킹 지원 - sportalkorea.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZE80Rm5aTzg3NzdhS1VFWThPaGR2QU1lTkNvOWRLbTc4X0FQWmdpWEFNSmRKV1htTUJQbGtaUlFGRjhqQ2w3MUlHUVZ3ekhONTJBNDJ4eWVRRVlqdnlxZFI5OXljamZ5V0UyWE5DWTZGLTVyQ3lwX2FuZkg3Q004STBB?oc=5",
+    "keyword": "방산",
+    "source": "sportalkorea.com"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 01:45:00 GMT",
+    "title": "[이 특징주 버핏이라면] 디와이씨, 방산 부품 '신세계정공' 인수…방위산업 진출 기대감에 '上' 직행 - 뉴스투데이",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBITThMNHk2SElyV2c3UmdHT2YzNzV3SXRyZGpMMmRJd0YyelktUHZteUhPTlFwODhkT1JjWUVxNS1qRzZLTmYzWlozVmdGYS1xd2NlYVE3NDlNNWhXb2c?oc=5",
+    "keyword": "방산",
+    "source": "뉴스투데이"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 05:31:00 GMT",
+    "title": "K-방산, 유럽·중동 시장 진출 위해 정부와 기업이 함께 뛴다 - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0RFpKNEY3SlBmd1V3OFA4eEpacWN5THZ3NUh2OVp6ZUw5WC1RdHIyUTZ6LV9KWUhLS1A4QlVZa0J3Tmo0RU5JdFRicEtpMUd2YkVZ?oc=5",
+    "keyword": "방산",
+    "source": "네이트 뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 06:34:03 GMT",
+    "title": "미래에셋운용, ‘K방산·K조선’ ETF 나란히 순자산 3천억 돌파…수출 산업 주도주에 집중 투자 - 투데이e코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Ld1ZDSmlQNlB5SGx2Q2JiRVJPMHk4UDZFV05PMFJyVTNLRFdoV3l4cWxUT1BtN1d2QmFDZlVTTVYyeTdTMHJaVWx6YVdrNTJIRllwdGUyWkQ1VWxPZldNc2dsUEZxMGM?oc=5",
+    "keyword": "방산",
+    "source": "투데이e코노믹"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:12:02 GMT",
+    "title": "대전 서구, 방위산업 시험·인증 인력 양성 현장 점검 - 굿모닝충청",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mMDJXb2h5WGRtSThFdW0tRXBNTTFfMEV1cjYxQWJ6WldJX2RsMVgxd0t2ZUxmbDEwUXY5X19WeVotck5YNmg2WS1UR3JCbjhLc2dCZXFWUGNhZXJKNnhQaHBGa1ExcjNGbUJBYmhNNlUtQQ?oc=5",
+    "keyword": "방산",
+    "source": "굿모닝충청"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 01:03:01 GMT",
+    "title": "\"리브랜딩 1년\"…한화 'PLUS' ETF, 방산·배당으로 퀀텀점프 - ebn.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55YkotbDV2c01OejNzQTRWVVBOZFVxVmtjQklCaGJzQXRZTlV2c29CZEVDTWVrS3Nrbm5BOElHaTFxTFhLM19ZcWNQSDRMQ1FDbzZvMEJOU3JZMXVKTTZuNm9TbUdDelV1?oc=5",
+    "keyword": "방산",
+    "source": "ebn.co.kr"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 07:13:42 GMT",
+    "title": "K-방산, 2분기도 호실적 기대감 '솔솔'…총 영업익 1조 넘을까? - 팝콘뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kSXZlaGp3THpsT2hUM1VVWEEzVFpsdERqek9zMkxYXy1TUFI5b3M5OEZ4emNpNG0yQ2lVUm9ySHRvTHNURlFHa1RIYkJPSFBwTnoyWFdnVlZDekVkbTRnbUhJRVNWWFB4M19oX2tn0gFwQVVfeXFMTlRYNnctcnVEZFVlbGpxVlhXM3RyLWZrSEdrczdpUE5PUWFjczhheWVuSUkyLWZqa3dsMzYyUmx3TWFucHZlWmhydm1QNzNMZk9mRzVENGlpQ3pfTUxKbE14eWhpZjBTSWcwel92SF9TWA?oc=5",
+    "keyword": "방산",
+    "source": "팝콘뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 08:13:37 GMT",
+    "title": "미래에셋 ‘K방산·K조선' ETF 순자산 3000억원 돌파 - CNB뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nS1lvbUdJV1ZOUXlOdUtwcjhOR2MzcUVkZzFTbVh2S1d6RDlsekltUFY4b1R3dEQ0eFRCSWRsMzhPVXJLb2M1Q0V6VG5aNXhFNWdMSVlmYUd6eTl2T193TjA4TkQ?oc=5",
+    "keyword": "방산",
+    "source": "CNB뉴스"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 06:08:15 GMT",
+    "title": "'K방산·고배당' 한화운용 \"리브랜딩 1년 만에 3조원↑…가상자산도 선제 대응\" - MTN 머니투데이방송",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jQ200a2xmQi1FZEhJWXp2QmFjMWF1ZWZhaDg2bzgwejU1RUtyQnhXMjhnS1BwakppcXg3WjFkcGVNYUh2ZWVPUHE3cTJGYXpzbDMzLW04NzVpZTR6ckxLZTNrZFc?oc=5",
+    "keyword": "방산",
+    "source": "MTN 머니투데이방송"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 08:01:24 GMT",
+    "title": "韓방산업체, 美육군 시누크 헬기 엔진정비 맡는다 - 이코노믹데일리",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fVE0xYkFWWHpGZEhMNnppQzVwczNQMWsyXzRpYmVLWE93RVhQSWJaZTFaWVRUaGlhT2Mxa2pyMWVCT3pXZW53TkROWmtYbi1EQ2ZFVmRIRjRCQ0pSSnBtb0xlZmVVc1lfazJyT2l2c3RSVFNXY3l6dNIBXEFVX3lxTE91LWRzN0VLYUxKYUtSZm9PNGc0VElBR0FyTTZiRFNuMFZ5UVhoMXI3WU9YUlQtdGhMNjA1ZXFaQ3l1RDlKZmV4dXJSV1E0anFmTmEzZW55bE5FeGxG?oc=5",
+    "keyword": "방산",
+    "source": "이코노믹데일리"
+  },
+  {
+    "date": "Wed, 23 Jul 2025 01:57:00 GMT",
+    "title": "방사청·국기연, 튀르키예 방산전시회서 \"K-방산 지원, 통합한국관 운영\" - 네이트 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TcHVJenNfMU9IOGctSy10UVpMZ3h1MEsxNElPdVlLRC14REZUTkl4bmVYS09ydGN4UTRCWFk2ZEtvUDY3VmhsSDhIWmp6ZGpPWmhn?oc=5",
+    "keyword": "방산",
+    "source": "네이트 뉴스"
   }
+]
