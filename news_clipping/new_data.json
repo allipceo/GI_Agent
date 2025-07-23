@@ -1,0 +1,75 @@
+{
+    "last_updated": "2025-07-23T16:20:00",
+    "total_news": 120,
+    "categories": {
+      "보험중개": {
+        "count": 40,
+        "news": [
+          {
+            "title": "보험중개사 디지털 전환 가속화, 고객 맞춤형 서비스 확대",
+            "url": "https://news.google.com/articles/insurance_digital_1",
+            "published": "2025-07-23T10:30:00",
+            "summary": "보험중개업계가 AI와 빅데이터를 활용한 디지털 전환에 나서며 고객 맞춤형 서비스를 확대하고 있다."
+          },
+          {
+            "title": "글로벌 보험중개회사 록톤, 한국 에너지 시장 진출 확대",
+            "url": "https://news.google.com/articles/lockton_korea_energy",
+            "published": "2025-07-23T09:15:00",
+            "summary": "록톤코리아가 신재생에너지 분야 보험중개 서비스를 확대하며 한국 에너지 전환 시장에서의 입지를 강화하고 있다."
+          },
+          {
+            "title": "보험중개업 규제 완화로 혁신 서비스 도입 기대",
+            "url": "https://news.google.com/articles/insurance_regulation_2025",
+            "published": "2025-07-23T14:20:00",
+            "summary": "금융당국의 보험중개업 규제 완화 방침으로 인슈어테크 기업들의 혁신적인 보험 상품과 서비스 도입이 탄력을 받을 전망이다."
+          }
+        ]
+      },
+      "신재생에너지": {
+        "count": 40,
+        "news": [
+          {
+            "title": "한국 태양광 발전 용량 2025년 20GW 돌파 전망",
+            "url": "https://news.google.com/articles/solar_20gw_korea",
+            "published": "2025-07-23T11:45:00",
+            "summary": "산업통상자원부는 올해 말 국내 태양광 발전 설비 용량이 20GW를 넘어설 것으로 예상된다고 발표했다."
+          },
+          {
+            "title": "해상풍력 프로젝트 투자 확대, 서해안 대규모 단지 조성",
+            "url": "https://news.google.com/articles/offshore_wind_west_sea",
+            "published": "2025-07-23T13:30:00",
+            "summary": "정부가 서해안 일대에 대규모 해상풍력 단지 조성을 위해 3조원 규모의 투자를 유치한다고 발표했다."
+          },
+          {
+            "title": "ESS 화재 안전 기준 강화, 보험 가입 의무화 검토",
+            "url": "https://news.google.com/articles/ess_safety_insurance",
+            "published": "2025-07-23T15:10:00",
+            "summary": "에너지저장장치(ESS) 화재 사고 예방을 위해 안전 기준이 강화되고 보험 가입 의무화가 검토되고 있다."
+          }
+        ]
+      },
+      "방산": {
+        "count": 40,
+        "news": [
+          {
+            "title": "한국 방산 수출 사상 최대 실적, K-방산 브랜드 위상 제고",
+            "url": "https://news.google.com/articles/k_defense_export_record",
+            "published": "2025-07-23T12:00:00",
+            "summary": "올해 상반기 한국 방위산업 수출액이 사상 최대치를 기록하며 K-방산의 글로벌 경쟁력이 입증되고 있다."
+          },
+          {
+            "title": "한화시스템, 차세대 레이더 기술 개발 성공",
+            "url": "https://news.google.com/articles/hanwha_radar_tech",
+            "published": "2025-07-23T10:15:00",
+            "summary": "한화시스템이 독자 기술로 개발한 차세대 다기능 레이더가 성능 시험을 통과하며 해외 수출 길을 열었다."
+          },
+          {
+            "title": "KAI 차세대 전투기 개발, 국제 공동 개발 프로젝트 참여",
+            "url": "https://news.google.com/articles/kai_fighter_project",
+            "published": "2025-07-23T14:45:00",
+            "summary": "한국항공우주산업(KAI)이 유럽 항공방산업체들과 차세대 전투기 공동 개발 프로젝트에 참여한다고 발표했다."
+          }
+        ]
+      }
+    }
+  }
