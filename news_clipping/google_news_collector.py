@@ -67,10 +67,25 @@ def main():
             "keyword": item["keyword"],
             "source": extract_source(item["title"])
         })
-    # 웹에서 읽기 쉬운 JSON 저장
+    # 웹에서 읽기 쉬운 JSON 저장 (오늘 뉴스만)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(json_news, f, ensure_ascii=False, indent=2)
     print(f"\n총 {len(json_news)}건의 뉴스가 {output_path}에 저장되었습니다.")
+
+    # --- 전체 클립뉴스 DB에 누적 저장 ---
+    db_path = os.path.join(script_dir, "clipnews_db.json")
+    if os.path.exists(db_path):
+        with open(db_path, encoding="utf-8") as f:
+            db = json.load(f)
+    else:
+        db = []
+    # 기존 DB에 없는 뉴스만 추가 (제목 기준 중복 제거)
+    existing_titles = {item['title'] for item in db}
+    new_items = [item for item in json_news if item['title'] not in existing_titles]
+    db.extend(new_items)
+    with open(db_path, "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False, indent=2)
+    print(f"누적 DB에 총 {len(db)}건의 뉴스가 저장되었습니다.")
 
 if __name__ == "__main__":
     main() 
